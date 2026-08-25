@@ -6,7 +6,8 @@
 /.pnp
 .pnp.js
 /src/pages/PitchDeck/public/pitchDeck.mp4
-
+/.env
+.env
 # testing
 /coverage
 
