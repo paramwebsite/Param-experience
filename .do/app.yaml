@@ -1,25 +1,33 @@
 name: param-experience
 region: blr
+
 static_sites:
   - name: web
     github:
-      repo: paramwebsite/Experience
+      repo: OWNER/REPO
       branch: main
       deploy_on_push: true
+
     build_command: CI=false npm run build
     output_dir: build
+
     index_document: index.html
     catchall_document: index.html
+    error_document: index.html
+
     envs:
       - key: REACT_APP_API_ENDPOINT
         scope: BUILD_TIME
-        value: https://admindashboard.paramscience.org
+        value: https://admindashboard.paramscience.org/api
+
       - key: REACT_APP_VISIT_US_DEPLOYMENT_ID
         scope: BUILD_TIME
-        value: PASTE_YOURS
+        value: AKfycbxDw6oXFL27rg-AB0AGTuJTvAsESRP2SqB2EycZqYLHlIKFsJK1x6faT4dIxJFvFoZ68w
+
       - key: REACT_APP_VISIT_US_API_ENDPOINT
         scope: BUILD_TIME
-        value: PASTE_YOURS
+        value: https://script.google.com/macros/s/AKfycbxDw6oXFL27rg-AB0AGTuJTvAsESRP2SqB2EycZqYLHlIKFsJK1x6faT4dIxJFvFoZ68w/exec
+
       - key: REACT_APP_BOOK_MY_SHOW_URL
         scope: BUILD_TIME
-        value: PASTE_YOURS
+        value: https://in.bookmyshow.com/activities/parsec-jayanagar-by-param/ET00401736
