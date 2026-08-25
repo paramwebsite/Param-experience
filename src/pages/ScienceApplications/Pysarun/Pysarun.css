@@ -1,0 +1,41 @@
+/* .ScienceAplicationPysarun{
+   width: 100vw;
+   height: 100vh;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+} */
+/* .ScienceAplicationPysarunnav{
+   width: 100%;
+
+ 
+   display: flex;
+ 
+} */
+/* .ScienceAplicationPysarunlogo{
+    background: url("/public/logo.png");
+    background-size: 50px;
+    width: 15%;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+} */
+
+
+
+/* .ScienceAplicationPysarunblock{
+    width: 100%;
+  
+} */
+
+/* .ScienceAplicationPysarunblock canvas{
+    width: 100% !important;
+    height: 100% !important;
+} */
+
+
+.ballanimation{
+    height: 30%;
+}
+

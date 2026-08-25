@@ -1,0 +1,96 @@
+.digitalGallery {
+  /* display: flex;
+  justify-content: center; */
+}
+
+.digitalGallery .digitalContent {
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.digitalGallery .digitalContent .subContent1 div {
+  width: 50%;
+}
+
+.digitalGallery .digitalContent .digitalContentDescription .digitalContentHead {
+  width: 100%;
+}
+
+.digitalGallery
+  .digitalContent
+  .digitalContentDescription
+  .digitalContentHead
+  h1 {
+  font-size: 2.6vw;
+  letter-spacing: 0.52vw;
+  line-height: 6vw;
+  margin-top: 0;
+}
+
+.digitalGallery .digitalContent .digitalContentDescription p {
+  font-size: 1vw;
+  line-height: 1.64vw;
+  letter-spacing: 0.14vw;
+  padding-right: 5%;
+}
+
+.digitalGallery .digitalContent .digitalContentDescription .digitalContentHead h1,
+.digitalGallery .digitalContent .digitalContentDescription p {
+  padding-left: 9%;
+}
+
+.digitalGallery .digitalContent .digitalContentBanner {
+  background-image: url(https://digitalassestbucket.s3.amazonaws.com/IncityGallery/gallery-images/digital1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  width: 40% !important;
+  border-radius: 21px;
+  height: 50vh;
+  box-shadow: 0px 3px 50px #0000004a;
+}
+
+/*------------------------ MOBILE VIEW ------------------------*/
+
+@media only screen and (max-width: 450px) {
+  .digitalGallery .digitalContent {
+    padding-top: 12vh;
+    align-items: center;
+    padding-bottom: 85%;
+  }
+
+  .digitalGallery .digitalContent .subContent1 {
+    flex-direction: column-reverse;
+    width: 80%;
+    padding-top: 18%;
+  }
+
+  .digitalGallery .digitalContent .subContent1 div {
+    width: 100% !important;
+  }
+
+  .digitalGallery .digitalContent .digitalContentBanner {
+    height: 30vh;
+    background-size: cover;
+  }
+
+  .digitalGallery .digitalContent .digitalContentDescription .digitalContentHead h1 {
+    font-size: 2.57vh;
+    letter-spacing: 0.18vh;
+    line-height: 6vh;
+    padding: 5% 0 0 0;
+    margin-bottom: 0;
+}
+
+  .digitalGallery .digitalContent .digitalContentDescription p {
+    padding: 0;
+    font-size: 1.54vh;
+    line-height: 2.6vh;
+    letter-spacing: 0.08vh;
+  }
+}

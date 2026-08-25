@@ -1,0 +1,66 @@
+
+.scienceFieldsKiosk .navbar {
+  position: fixed;
+  right: 5%;
+  top: 0;
+  height: 100vh;
+  width: 40px;
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.scienceFieldsKiosk .sidebar {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5vw;
+  justify-content: center;
+}
+
+.scienceFieldsKiosk .marker {
+  position: absolute;
+  top: 5.8%;
+  right: -90%;
+  width: 40px;
+  height: 30px;
+  /* background-color: white;
+  border-radius: 50% 50% 50% 0%;
+  transform: rotate(223deg); */
+  /* background-image: url("https://digitalassestbucket.s3.amazonaws.com/Fields+of+Science/Asset/Pointer.svg"); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: top 0.5s ease-in-out;
+  /* z-index: 3; */
+}
+
+.scienceFieldsKiosk .letter {
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+  font-weight: bolder;
+  transition: opacity 0.5s 0.3s;
+  /* Adjust as per your design needs */
+}
+
+/* Example of how to make a letter visible when within the marker */
+/* You would dynamically add a 'visible' class based on the scroll position */
+.scienceFieldsKiosk .active {
+  opacity: 1;
+}
+
+.scienceFieldsKiosk .color-bar {
+  position: absolute;
+  width: 5px;
+  height: 30px;
+  right: -40px;
+  border-radius: 20px;
+  /* Adjust as needed to place it beside the marker */
+  background-color: #FFF;
+  /* Default color */
+  transition: top 0.5s ease-in-out, background-color 0.5s;
+}

@@ -1,0 +1,103 @@
+.cardboardGallery {
+  /* display: flex;
+  justify-content: center; */
+}
+
+.cardboardGallery .cardboardContent {
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.cardboardGallery .cardboardContent .subContent1 div {
+  width: 50%;
+}
+
+.cardboardGallery
+  .cardboardContent
+  .cardboardContentDescription
+  .cardboardContentHead {
+  width: 100%;
+}
+
+.cardboardGallery
+  .cardboardContent
+  .cardboardContentDescription
+  .cardboardContentHead
+  h1 {
+  font-size: 2.6vw;
+  letter-spacing: 0.52vw;
+  line-height: 6vw;
+  margin-top: 0;
+}
+
+.cardboardGallery .cardboardContent .cardboardContentDescription p {
+  font-size: 1vw;
+  line-height: 1.64vw;
+  letter-spacing: 0.14vw;
+  padding-right: 5%;
+}
+
+.cardboardGallery .cardboardContent .cardboardContentDescription .cardboardContentHead h1,
+.cardboardGallery .cardboardContent .cardboardContentDescription p {
+  padding-left: 9%;
+}
+
+.cardboardGallery .cardboardContent .cardboardContentBanner {
+  width: 40% !important;
+  border-radius: 21px;
+  height: 50vh;
+  background-image: url(https://digitalassestbucket.s3.amazonaws.com/IncityGallery/gallery-images/cardboard1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  box-shadow: 0px 3px 50px #0000004a;
+}
+
+/*------------------------ MOBILE VIEW ------------------------*/
+
+@media only screen and (max-width: 450px) {
+  .cardboardGallery .cardboardContent {
+    padding-top: 12vh;
+    align-items: center;
+    padding-bottom: 85%;
+  }
+
+  .cardboardGallery .cardboardContent .subContent1 {
+    flex-direction: column-reverse;
+    width: 80%;
+    padding-top: 18%;
+  }
+
+  .cardboardGallery .cardboardContent .subContent1 div {
+    width: 100% !important;
+  }
+
+  .cardboardGallery .cardboardContent .cardboardContentBanner {
+    height: 30vh;
+    background-size: cover;
+  }
+
+  .cardboardGallery
+    .cardboardContent
+    .cardboardContentDescription
+    .cardboardContentHead
+    h1 {
+    font-size: 2.57vh;
+    letter-spacing: 0.18vh;
+    line-height: 6vh;
+    padding: 5% 0 0 0;
+    margin-bottom: 0;
+  }
+
+  .cardboardGallery .cardboardContent .cardboardContentDescription p {
+    padding: 0;
+    font-size: 1.54vh;
+    line-height: 2.6vh;
+    letter-spacing: 0.08vh;
+  }
+}

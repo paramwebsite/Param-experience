@@ -1,0 +1,93 @@
+/* html, body {
+    overflow: auto;
+} */
+
+.scienceFieldsKiosk {
+    height: 100%;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.scienceFieldsKiosk #fos-logo {
+    background-image: url("/public/FOSLogo.svg");
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+}
+
+.scienceFieldsKiosk .science-field {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    /* scroll-snap-align: start; */
+}
+
+.scienceFieldsKiosk .background {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.scienceFieldsKiosk .content {
+    margin: 0 auto;
+    min-width: 980px;
+    width: 100%;
+    position: relative;
+}
+
+.scienceFieldsKiosk .field-image,
+.scienceFieldsKiosk .field-text,
+.scienceFieldsKiosk .field-number {
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.scienceFieldsKiosk .field-image {
+    /* background-size: 32% !important;
+    background-position: 73.2% 68% !important; */
+    background-size: auto 70%;
+    background-position: 80% 50% !important;
+}
+
+.scienceFieldsKiosk .field-title {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: auto 19% !important;
+    background-position-y: 76% !important;
+    z-index: 2;
+}
+
+.scienceFieldsKiosk .field-title1 {
+    position: absolute;
+    /* background-size: auto 19% !important; */
+    background-size: auto 6% !important;
+    background-position-y: 76% !important;
+    z-index: 2;
+}
+
+.scienceFieldsKiosk .field-text {
+    background-size: 35% !important;
+    background-position: 7% 33% !important;
+    z-index: 1;
+}
+
+.scienceFieldsKiosk .field-number {
+    /* background-size: 10% !important; */
+    background-position: 50.2% 74% !important;
+}

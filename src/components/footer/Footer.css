@@ -1,0 +1,478 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #0b0c10;
+  position: relative;
+  color: white;
+  padding-bottom: 2%;
+  z-index: 1;
+  gap: 5vh;
+}
+
+.footer .mapContainer {
+  background-image: url(/public/mapbanner.svg);
+  background-size: cover;
+  width: 90%;
+  display: flex;
+  padding: 5% 5%;
+}
+
+.footer .mapContainer .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3%;
+}
+
+.footer .mapContainer .text h2 {
+  margin: 0;
+  font: normal normal bold 1.55vw/3.1vw Helvetica Neue;
+  letter-spacing: 0.23vw;
+  text-align: left;
+  color: #626264;
+}
+.footer .mapContainer .text div,
+.footer .mapContainer .text div ul {
+  margin: 0;
+  padding-left: 1%;
+  font: normal normal normal 1.04vw / 1.6vw Helvetica Neue;
+  letter-spacing: 0.05vw;
+  width: 100%;
+}
+
+.parsec.footer .mapContainer .text li .head,
+.parsec.footer .mapContainer .text li .contactBold {
+  font-weight: bold;
+}
+
+/* .footer .mapContainer div {
+  width: 50%;
+} */
+
+.footer .mapContainer .locationBox {
+  background: #ffffff30;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  width: 85%;
+  height: 80%;
+  border-radius: 25px;
+  padding: 3% 5% 10%;
+}
+
+.footer .mapContainer .locationBox p.head {
+  font-weight: bold;
+  width: min-content;
+}
+
+.footer .mapContainer .locationBox p.para {
+  color: #777778;
+  width: 80%;
+  text-align: left;
+  padding-bottom: 3%;
+}
+
+.footer .mapContainer .locationBox .openMap {
+  background-color: #d7326e;
+  border-radius: 25px;
+  width: max-content;
+  padding: 2% 5%;
+  font-weight: bold;
+}
+
+.footer .mapContainer .locationBox .openMap:hover {
+  cursor: pointer;
+}
+
+.footer .footerMainContent {
+  width: 100%;
+  display: flex;
+  background: #0b0c10;
+  padding: 5%;
+}
+
+.footer .footerMainContent .logo {
+  width: 40%;
+  background-image: url(/public/footerParam.svg);
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer .footerMainContent .details {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 5vw;
+}
+
+.footer .footerMainContent .details p {
+  color: #777778;
+}
+
+.footer .footerMainContent .details .mediaAndLinks,
+.footer .footerMainContent .details .timingAndContact {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .visitorRegulations {
+  background-color: #777778;
+  width: 100%;
+  padding: 1% 0 0 10%;
+}
+
+.footer .visitorRegulations h2 {
+  margin: 1% 0;
+  /* font-size: 2.32vw; */
+  /* line-height: 3.6vw; */
+  /* letter-spacing: 0.34vw; */
+  /* font-weight: bold; */
+}
+
+.footer .visitorRegulations ul {
+  padding: 0 0 0 1%;
+  margin-top: 0;
+  width: 50%;
+}
+
+.footer .visitorRegulations ul li {
+  margin: 0.5%;
+}
+
+.footer .visitorRegulations p {
+  margin-top: 0;
+  padding-bottom: 1%;
+}
+
+.footer .details {
+  /* display: flex; */
+  /* padding: 5% 2% 2% 2%; */
+  width: 90%;
+  justify-content: space-around;
+}
+
+.footer .details .mediaAndTiming,
+.footer .details .linksAndContact {
+  display: flex;
+}
+
+.footer .details .mediaAndTiming .timing h2 {
+  margin-bottom: 0;
+}
+
+.footer .details .mediaAndTiming div,
+.footer .details .linksAndContact div {
+  width: 50%;
+}
+
+.footer .details .linksAndContact .contactUs p {
+  display: flex;
+  gap: 5%;
+}
+
+.footer .details .detailsContent p {
+  color: #777778;
+}
+
+.footer .details .timing .timeTable {
+  display: flex;
+  gap: 10%;
+  width: auto;
+}
+
+.footer .details .timing .timeTable .days {
+  display: flex;
+}
+
+.footer .mapContainer .locationBox p.para,
+.footer .mapContainer .locationBox p.head,
+.footer .mapContainer .locationBox .openMap,
+.footer .visitorRegulations h2,
+.footer .details h2,
+.footer .details,
+.footer .visitorRegulations ul {
+  font-size: 1.04vw;
+  line-height: 1.5vw;
+  letter-spacing: 0.06vw;
+}
+
+.footer .details .detailsContent h2,
+.footer .details .detailsContent .contactUs .marketingEmail,
+.footer .details .detailsContent .contactUs .contactNo {
+  display: flex;
+  gap: 3%;
+  align-items: center;
+}
+
+.footer .details .detailsContent .contactUs .contactUsContent {
+  width: 70%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.footer .details .locationOnMap iframe {
+  height: 100%;
+}
+
+.footer hr {
+  width: 90%;
+}
+
+.footer .redirects {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5%;
+}
+
+.footer .redirects a,
+.footer .locationBox a {
+  text-decoration: none;
+  color: white;
+}
+
+/* .footer .redirects a:hover {
+  box-shadow: 5px 5px 50px #28397e;
+} */
+
+.footer .redirects p {
+  margin: 0;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 0.99vw;
+}
+
+.parsec.footer .redirects {
+  display: block;
+}
+
+.parsec.footer .redirects a {
+  color: #777778;
+  transition: color 0.3s ease;
+}
+
+.parsec.footer .redirects a:hover {
+  color: white;
+}
+
+.footer .copyright {
+  width: 83%;
+  font-size: 0.76vw;
+  /* padding-top: 4%; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer .copyright p,
+.footer .copyright div {
+  width: 50%;
+}
+
+.footer .icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5%;
+}
+
+.parsec.footer .icons {
+  justify-content: flex-start;
+}
+
+.footer .icons a {
+  width: auto;
+}
+
+.footer .icons .iconRedirects {
+  width: 4vh !important;
+  height: 4vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    padding-bottom: 5%;
+  }
+
+  .parsec.footer .icons {
+    justify-content: space-between;
+  }
+
+  .footer .mapContainer {
+    background-image: url(/public/mapBannerMobile.svg);
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 3vh;
+  }
+
+  .footer .footerMainContent {
+    margin-bottom: 15%;
+  }
+
+  .footer .mapContainer .locationContainer {
+    width: 90%;
+    backdrop-filter: blur(12px);
+    background: #ffffff30;
+    border-radius: 25px;
+    padding: 2% 5% 8%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer .mapContainer .text {
+    width: 100%;
+    padding: 0;
+  }
+
+  .footer .mapContainer .locationBox {
+    width: 91%;
+    padding: 0;
+    backdrop-filter: none;
+    background: none;
+  }
+
+  .footer .footerMainContent .details {
+    width: 100%;
+    flex-direction: column;
+    margin: 2% 0 0 0;
+    align-items: center;
+  }
+
+  .footer .footerMainContent .details p {
+    margin: 0;
+  }
+
+  .footer .mapContainer .text h2 {
+    font-weight: bold !important;
+    margin-bottom: 2%;
+  }
+
+  .footer .mapContainer .text div {
+    padding-left: 4%;
+    width: 96%;
+  }
+
+  .footer .mapContainer .text div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+
+  .footer .mapContainer .locationBox p.para {
+    width: 100%;
+  }
+
+  .footer .mapContainer .text h2,
+  .footer .mapContainer .text div ul,
+  .footer .mapContainer .locationBox .openMap,
+  .footer .mapContainer .locationBox p.para,
+  .footer .mapContainer .locationBox p.head,
+  .footer .details h2,
+  .footer .details {
+    font: 1.9vh/2.5vh Helvetica Neue;
+    letter-spacing: 0.09vh;
+  }
+
+  .parsec.footer .mapContainer .text h2 {
+    width: 95%;
+  }
+
+  .footer .details .mediaAndLinks,
+  .footer .details .timingAndContact {
+    flex-direction: column;
+    width: 90%;
+    gap: 4vh;
+  }
+
+  .footer .details .timingAndContact .timing {
+    width: 100%;
+  }
+
+  .footer .details .timingAndContact .contactUs .contactUsContent {
+    width: 100% !important;
+  }
+
+  .footer .details .timingAndContact .contactUs div {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+
+  .footer .details .timingAndContact .contactUs div p {
+    display: flex;
+    gap: 5%;
+  }
+
+  .footer .details .timing .timeTable {
+    gap: 2vh;
+  }
+  .footer .details .timing .timeTable,
+  .footer .details .timing .timeTable .days {
+    flex-direction: column;
+  }
+
+  .footer .details .mediaAndLinks .media {
+    width: 100%;
+  }
+
+  .footer .details .mediaAndTiming div,
+  .footer .details .linksAndContact div {
+    width: 100%;
+  }
+
+  .footer .details .locationOnMap iframe {
+    width: 100%;
+    padding-top: 10%;
+  }
+
+  .footer .details .detailsContent .timing .timeTable {
+    flex-direction: column;
+  }
+
+  .footer .details .detailsContent .timing .timeTable .days {
+    flex-direction: column;
+    padding-bottom: 6%;
+  }
+
+  .footer .details .detailsContent .timing .timeTable .days p {
+    margin: 0;
+  }
+
+  .footer .redirects {
+    flex-direction: column;
+  }
+
+  .footer .redirects div {
+    column-count: 2;
+  }
+
+  .footer .copyright {
+    flex-direction: column;
+    height: 30%;
+    gap: 50%;
+  }
+
+  .footer .copyright p,
+  .footer .copyright div {
+    width: 100%;
+    font-size: 1.24vh;
+    line-height: 2.48vh;
+  }
+
+  .footer .icons {
+    gap: 4%;
+    justify-content: space-between;
+  }
+
+  .footer .icons .iconRedirects {
+    height: 5vh;
+    width: 5vh !important;
+  }
+}

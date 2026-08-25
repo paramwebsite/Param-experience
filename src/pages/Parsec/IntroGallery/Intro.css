@@ -1,0 +1,99 @@
+.introGallery {
+  /* display: flex;
+  justify-content: center; */
+}
+
+.introGallery .introContent {
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.introGallery .introContent .subContent1 div {
+  width: 50%;
+}
+
+.introGallery .introContent .introContentDescription .introContentHead {
+  width: 100%;
+}
+
+.introGallery .introContent .introContentDescription .introContentHead h1 {
+  font-size: 2.6vw;
+  letter-spacing: 0.52vw;
+  line-height: 6vw;
+  margin-top: 0;
+}
+
+.introGallery .introContent ul {
+  padding-left: 15%;
+}
+
+.introGallery .introContent .introContentDescription p, .introGallery .introContent ul {
+  font-size: 1vw;
+  line-height: 1.64vw;
+  letter-spacing: 0.14vw;
+}
+
+.introGallery .introContent .introContentDescription .introContentHead h1,
+.introGallery .introContent .introContentDescription p {
+  padding-left: 9%;
+}
+
+.introGallery .introContent .introContentBanner {
+  background-image: url(https://digitalassestbucket.s3.amazonaws.com/IncityGallery/gallery-images/intro.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 10%;
+  width: 40% !important;
+  border-radius: 21px;
+  height: 50vh;
+  box-shadow: 0px 3px 50px #0000004a;
+}
+
+/*------------------------ MOBILE VIEW ------------------------*/
+
+@media only screen and (max-width: 450px) {
+  .introGallery .introContent {
+    padding-top: 12vh;
+    align-items: center;
+    padding-bottom: 85%;
+  }
+
+  .introGallery .introContent .subContent1 {
+    flex-direction: column-reverse;
+    width: 80%;
+    padding-top: 18%;
+  }
+
+  .introGallery .introContent .subContent1 div {
+    width: 100% !important;
+  }
+
+  .introGallery .introContent .introContentBanner {
+    height: 30vh;
+    background-size: cover;
+  }
+
+  .introGallery .introContent .introContentDescription .introContentHead h1 {
+    font-size: 2.57vh;
+    letter-spacing: 0.18vh;
+    line-height: 6vh;
+    padding: 5% 0 0 0;
+    margin-bottom: 0;
+  }
+
+  .introGallery .introContent ul {
+    padding-left: 10% !important;
+  }
+
+  .introGallery .introContent .introContentDescription p, .introGallery .introContent ul {
+    padding: 0;
+    font-size: 1.54vh;
+    line-height: 2.6vh;
+    letter-spacing: 0.08vh;
+  }
+}

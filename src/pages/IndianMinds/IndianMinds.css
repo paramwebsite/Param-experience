@@ -1,0 +1,216 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:700';
+
+
+.indianMinds {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("./Assets/indianMindsBg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+/* DESKTOP/LAPTOP VIEW CSS */
+
+.indianMinds .IMcaption { 
+    width: 100%;
+    display: flex;
+    height: 20%;
+    position: absolute;
+    top: 10%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.indianMinds .IMcaption h1 {   
+    font-family: 'DM Sans';
+} 
+
+.indianMinds .DContent {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.indianMinds .DContent .IMcards-table {
+    display: flex;
+    gap: 6em;
+}
+
+.indianMinds .DContent .IMcards-table .IMcard {
+    position: relative;
+    height: 30vw;
+    display: flex;
+    width: 20vw;
+    background-size: cover;
+    background-position-y: -2vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.indianMinds .DContent .IMcards-table .IMcard .textContent {
+    font-family: "Museo";
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    gap: 0.5em;
+    bottom: -60px;
+    padding: 5%;
+    transition: bottom 0.3s ease;
+}
+
+.indianMinds .DContent .IMcards-table .IMcard .textContent p {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+.indianMinds .DContent .IMcards-table .IMcard .textContent .IMbutton {
+    color: white;
+    border: 1px solid white;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    font-weight: bold;
+    transition: 1s all ease;
+}
+
+.indianMinds .DContent .IMcards-table .IMcard .textContent .IMbutton .bttn {
+    letter-spacing: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    transition: 1s all ease;
+}
+
+/* HOVER ANIMATION */
+
+.indianMinds .DContent .IMcards-table .IMcard:hover.IMcard .textContent {
+    bottom: 0px;
+}
+
+.indianMinds .DContent .IMcards-table .IMcard .textContent .IMbutton .bttn:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.indianMinds .DContent .IMcards-table .IMcard .textContent .IMbutton:hover {
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.3);
+}
+
+
+
+/* HOVER ANIMATION END */
+
+.indianMinds .DContent .IMcards-table .IMcard .imgStyle {
+    height: 50vh;
+}
+
+
+/*MOBILE VIEW CSS*/
+
+.indianMinds .MContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.indianMinds .MContent .IMcards {
+    display: flex;
+    gap: 6em;
+    height: 110vw;
+    width: 90vw;
+}
+
+.indianMinds .MContent .IMcards .IMcardHolder{
+    display: flex;
+    justify-content: center;
+    /* width: 20vw; */
+}
+
+.indianMinds .MContent .IMcards .IMcard {
+    position: relative;
+    height: 100vw;
+    display: flex;
+    width: 100%;
+    background-size: cover;
+    background-position-y: -2vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.indianMinds .MContent .IMcards .IMcard .textContent {
+    font-family: "Museo";
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    gap: 0.5em;
+    bottom: -15px;
+    padding: 5%;
+}
+
+.indianMinds .MContent .IMcards .IMcard .textContent p {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+.indianMinds .MContent .IMcards .IMcard .textContent .IMbutton {
+    color: white;
+    border: 1px solid white;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    font-weight: bold;
+    transition: 1s all ease;
+}
+
+.indianMinds .MContent .IMcards .IMcard .textContent .IMbutton .bttn {
+    letter-spacing: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    transition: 1s all ease;
+}
+
+/* HOVER ANIMATION */
+
+.indianMinds .MContent .IMcards .IMcard .textContent .IMbutton .bttn:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.indianMinds .MContent .IMcards .IMcard .textContent .IMbutton:hover {
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.3);
+}
+
+.indianMinds .MContent .IMcards .IMcard{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.indianMinds .MContent .carousel.carousel-slider .control-arrow:hover {
+    background: rgba(0,0,0,0);
+}
+
+/*MOBILE CSS*/
+@media only screen and (max-width: 600px) {
+    .indianMinds .IMcaption h1 {
+        font-size: x-large;
+    }
+}

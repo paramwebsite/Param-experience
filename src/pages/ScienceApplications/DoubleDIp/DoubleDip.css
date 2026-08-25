@@ -1,0 +1,35 @@
+.ScienceAplicationDoubleDip{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+ }
+ .ScienceAplicationDoubleDipnav{
+    width: 100%;
+    height: 10%;
+    /* background-color: white; */
+    display: flex;
+
+ }
+ .ScienceAplicationDoubleDiplogo{
+     background: url("/public/logo.png");
+     background-size: 50px;
+     width: 15%;
+     background-repeat: no-repeat;
+     background-position: top;
+     height: 100%;
+ }
+ 
+ 
+ 
+ .ScienceAplicationDoubleDipblock{
+     width: 100%;
+      height: 100%;
+ }
+ 
+ .ScienceAplicationDoubleDipblock canvas{
+     width: 100% !important;
+     height: 100% !important;
+ }

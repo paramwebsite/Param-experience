@@ -1,0 +1,72 @@
+.visitorGuidelines {
+}
+.visitorGuidelines .guidelineContent {
+  padding: 8% 0;
+  display: grid;
+  place-items: center;
+}
+
+.visitorGuidelines .guidelineContent h1 {
+  font: normal normal bold 2.1vw / 3.1vw Helvetica Neue;
+  color: #555558;
+}
+
+.visitorGuidelines .guidelineContent ul {
+  color: white;
+  width: 66%;
+}
+
+.visitorGuidelines .guidelineContent ul li::marker {
+  font-size: xx-large;
+}
+.visitorGuidelines .guidelineContent ul li,
+.visitorGuidelines .guidelineContent .contactBold {
+  font: normal normal normal 1.04vw / 1.55vw Helvetica Neue;
+  letter-spacing: 0.09vw;
+  color: #ffffff;
+}
+
+.visitorGuidelines .guidelineContent ul li p {
+  margin-left: 2%;
+}
+
+.visitorGuidelines .guidelineContent ul .guideline .head,
+.visitorGuidelines .guidelineContent .contactBold {
+  font-weight: bold;
+}
+
+.visitorGuidelines .guidelineContent .contactBold {
+  width: 61%;
+}
+
+.visitorGuidelines .parsec.footer .mapContainer {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+  .visitorGuidelines .guidelineContent {
+    padding: 18% 0;
+  }
+
+  .visitorGuidelines .guidelineContent h1 {
+    font: normal normal bold 1.9vh / 2.5vh Helvetica Neue;
+    letter-spacing: 0.09vh;
+    text-align: left;
+    width: 70%;
+  }
+
+  .visitorGuidelines .guidelineContent ul li p,
+  .visitorGuidelines .guidelineContent .contactBold {
+    font: 1.9vh / 2.5vh Helvetica Neue;
+    letter-spacing: 0.09vh;
+  }
+
+  .visitorGuidelines .guidelineContent ul {
+    padding-left: 0;
+  }
+
+  .visitorGuidelines .guidelineContent .contactBold {
+    width: 80%;
+    font-weight: bold;
+  }
+}

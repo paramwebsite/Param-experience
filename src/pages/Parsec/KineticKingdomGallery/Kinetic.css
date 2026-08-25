@@ -1,0 +1,96 @@
+.kineticGallery {
+  /* display: flex;
+  justify-content: center; */
+}
+
+.kineticGallery .kineticContent {
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.kineticGallery .kineticContent .subContent1 div {
+  width: 50%;
+}
+
+.kineticGallery .kineticContent .kineticContentDescription .kineticContentHead {
+  width: 100%;
+}
+
+.kineticGallery
+  .kineticContent
+  .kineticContentDescription
+  .kineticContentHead
+  h1 {
+  font-size: 2.6vw;
+  letter-spacing: 0.52vw;
+  line-height: 6vw;
+  margin-top: 0;
+}
+
+.kineticGallery .kineticContent .kineticContentDescription p {
+  font-size: 1vw;
+  line-height: 1.64vw;
+  letter-spacing: 0.14vw;
+  padding-right: 5%;
+}
+
+.kineticGallery .kineticContent .kineticContentDescription .kineticContentHead h1,
+.kineticGallery .kineticContent .kineticContentDescription p {
+  padding-left: 9%;
+}
+
+.kineticGallery .kineticContent .kineticContentBanner {
+  background-image: url(https://digitalassestbucket.s3.amazonaws.com/IncityGallery/gallery-images/kinetic.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 15%;
+  width: 40% !important;
+  border-radius: 21px;
+  height: 50vh;
+  box-shadow: 0px 3px 50px #0000004a;
+}
+
+/*------------------------ MOBILE VIEW ------------------------*/
+
+@media only screen and (max-width: 450px) {
+  .kineticGallery .kineticContent {
+    padding-top: 12vh;
+    align-items: center;
+    padding-bottom: 85%;
+  }
+
+  .kineticGallery .kineticContent .subContent1 {
+    flex-direction: column-reverse;
+    width: 80%;
+    padding-top: 18%;
+  }
+
+  .kineticGallery .kineticContent .subContent1 div {
+    width: 100% !important;
+  }
+
+  .kineticGallery .kineticContent .kineticContentBanner {
+    height: 30vh;
+    background-size: cover;
+  }
+
+  .kineticGallery .kineticContent .kineticContentDescription .kineticContentHead h1 {
+    font-size: 2.57vh;
+    letter-spacing: 0.18vh;
+    line-height: 6vh;
+    padding: 5% 0 0 0;
+    margin-bottom: 0;
+}
+
+  .kineticGallery .kineticContent .kineticContentDescription p {
+    padding: 0;
+    font-size: 1.54vh;
+    line-height: 2.6vh;
+    letter-spacing: 0.08vh;
+  }
+}

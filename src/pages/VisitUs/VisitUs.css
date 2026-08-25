@@ -1,0 +1,381 @@
+/* PARSEC FOOTER CSS */
+.visitUs .parsec.footer .mapContainer {
+  display: none;
+}
+/* PARSEC FOOTER CSS */
+
+.visitUs .visitUsContentContainer {
+  padding-top: 8%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-bottom: 8%;
+  background-color: #02040e;
+}
+
+.visitUs .visitUsContentContainer .visitUsFormNGuidelines {
+  width: 70%;
+}
+
+.visitUs .visitUsContentContainer .visitUsContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
+}
+
+.visitUs .visitUsContentContainer .visitUsContent .text {
+  display: grid;
+  place-items: center;
+}
+
+.visitUs .visitUsContentContainer .visitUsContent .text h1,
+.visitUs .visitUsContentContainer .guidelines h1 {
+  font: normal normal bold 2.1vw / 3.1vw Helvetica Neue;
+  color: #555558;
+}
+
+.visitUs .visitUsContentContainer .visitUsContent .text p,
+.visitUs .visitUsContentContainer .visitUsContent .form form,
+.visitUs .visitUsContentContainer .visitUsContent .form .submitForm span,
+.visitUs .visitUsContentContainer .guidelines ul li,
+.visitUs .visitUsContentContainer .guidelines .seeMoreGuidelines,
+.visitUs
+  .visitUsContentContainer
+  .visitUsContent
+  .form
+  form
+  input::-webkit-input-placeholder,
+.visitUs
+  .visitUsContentContainer
+  .visitUsContent
+  .form
+  form
+  textarea::-webkit-input-placeholder {
+  font: normal normal normal 1.04vw / 1.55vw Helvetica Neue;
+  letter-spacing: 0.09vw;
+  color: #ffffff;
+}
+
+.visitUs
+  .visitUsContentContainer
+  .visitUsContent
+  .form
+  form
+  input::-webkit-input-placeholder,
+.visitUs
+  .visitUsContentContainer
+  .visitUsContent
+  .form
+  form
+  textarea::-webkit-input-placeholder {
+  opacity: 0.25;
+}
+
+.visitUs .visitUsContentContainer .visitUsContent .text h1,
+.visitUs .visitUsContentContainer .visitUsContent .text p {
+  width: 90%;
+}
+
+.visitUs .visitUsContentContainer .visitUsContent .text p {
+  margin-top: 0;
+}
+
+.visitUs .visitUsContentContainer .visitUsContent .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #171922;
+  border-radius: 25px;
+  padding: 4% 6%;
+  gap: 3vw;
+}
+
+.visitUs .visitUsContentContainer .visitUsContent .form form {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+.visitUs
+  .visitUsContentContainer
+  .visitUsContent
+  .form
+  form
+  .messageOrQuestion {
+  width: 100%;
+}
+
+.visitUs .visitUsContentContainer .visitUsContent .form form label {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  gap: 1vw;
+  position: relative;
+}
+
+.visitUs .visitUsContentContainer .visitUsContent .form form label input,
+.visitUs .visitUsContentContainer .visitUsContent .form form label textarea {
+  /* width: 40%; */
+  color: white;
+  border-radius: 10px;
+  min-height: 2.5vw;
+  background-color: #23252d;
+  border: none;
+  resize: none;
+  font: normal normal normal 1.04vw / 1.55vw Helvetica Neue;
+  letter-spacing: 0.09vw;
+  padding: 2%;
+}
+
+.visitUs .visitUsContentContainer .visitUsContent .form form label span {
+  position: absolute;
+  bottom: -5vh;
+  color: red;
+  opacity: 0;
+  transition: 0.3s ease-in;
+}
+
+.visitUs
+  .visitUsContentContainer
+  .visitUsContent
+  .form
+  form
+  label
+  input::-webkit-outer-spin-button,
+.visitUs
+  .visitUsContentContainer
+  .visitUsContent
+  .form
+  form
+  label
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.visitUs .visitUsContentContainer .visitUsContent .form .submitForm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visitUs .visitUsContentContainer .visitUsContent .form .submitForm span {
+  color: red;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.visitUs
+  .visitUsContentContainer
+  .visitUsContent
+  .form
+  .submitForm
+  .submitButton {
+  width: max-content;
+  background-color: #d7326e;
+  font: normal normal bold 1.04vw / 1.35vw Helvetica Neue;
+  letter-spacing: 0.05vw;
+  border-radius: 30px;
+  padding: 1% 4%;
+  transition: 0.3s ease-in;
+}
+
+.visitUs
+  .visitUsContentContainer
+  .visitUsContent
+  .form
+  .submitForm
+  .submitButton:hover {
+  cursor: pointer;
+}
+
+.visitUs .visitUsContentContainer .guidelines {
+  padding-top: 5%;
+  display: grid;
+  place-items: center;
+}
+
+.visitUs .visitUsContentContainer .guidelines ul {
+  width: 94%;
+}
+
+.visitUs .visitUsContentContainer .guidelines ul li p {
+  margin-left: 2%;
+}
+
+.visitUs .visitUsContentContainer .guidelines ul .head {
+  font-weight: bold;
+}
+
+.visitUs .visitUsContentContainer .guidelines h1 {
+  text-align: center;
+}
+
+.visitUs .visitUsContentContainer .guidelines .seeMoreGuidelines {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.visitUs
+  .visitUsContentContainer
+  .guidelines
+  .seeMoreGuidelines
+  .seeMoreButton {
+  border-radius: 30px;
+  border: 2px solid white;
+  padding: 1% 4%;
+  width: max-content;
+}
+
+.visitUs
+  .visitUsContentContainer
+  .guidelines
+  .seeMoreGuidelines
+  .seeMoreButton
+  a {
+  text-decoration: none;
+  color: white;
+}
+
+.visitUs
+  .visitUsContentContainer
+  .guidelines
+  .seeMoreGuidelines
+  .seeMoreButton:hover {
+  cursor: pointer;
+}
+
+.visitUs .visitUsContentContainer .formSubmitConfirmation {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visitUs .visitUsContentContainer .formSubmitConfirmation .confirmationBox {
+  display: flex;
+  width: 35%;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #171922;
+  font-size: 1.04vw;
+  line-height: 1.5vw;
+  letter-spacing: 0.06vw;
+  padding: 2%;
+  gap: 5%;
+}
+
+.visitUs
+  .visitUsContentContainer
+  .formSubmitConfirmation
+  .confirmationBox
+  .confirmationIcon {
+  /* background-image: url(/public/confirmation.svg); */
+}
+
+@media only screen and (max-width: 450px) {
+  .visitUs .visitUsContentContainer {
+    padding-top: 18%;
+  }
+
+  .visitUs .visitUsContentContainer .visitUsFormNGuidelines {
+    width: 80%;
+  }
+
+  .visitUs .visitUsContentContainer .visitUsContent {
+    width: 100%;
+  }
+
+  .visitUs .visitUsContentContainer .visitUsContent .text {
+    display: grid;
+  }
+
+  .visitUs .visitUsContentContainer .visitUsContent .text h1,
+  .visitUs .visitUsContentContainer .visitUsContent .text p,
+  .visitUs .visitUsContentContainer .visitUsContent .form form label,
+  .visitUs .visitUsContentContainer .visitUsContent .form form label input,
+  .visitUs .visitUsContentContainer .visitUsContent .form form label textarea,
+  .visitUs .visitUsContentContainer .formSubmitConfirmation .confirmationBox,
+  .visitUs .visitUsContentContainer .visitUsContent .form .submitForm span,
+  .visitUs
+    .visitUsContentContainer
+    .visitUsContent
+    .form
+    form
+    input::-webkit-input-placeholder,
+  .visitUs
+    .visitUsContentContainer
+    .visitUsContent
+    .form
+    form
+    textarea::-webkit-input-placeholder {
+    width: 100%;
+    font: 1.9vh / 2.5vh Helvetica Neue;
+    letter-spacing: 0.09vh;
+  }
+
+  .visitUs .visitUsContentContainer .visitUsContent .form form label input,
+  .visitUs .visitUsContentContainer .visitUsContent .form form label textarea {
+    width: 96%;
+  }
+
+  .visitUs .visitUsContentContainer .visitUsContent .text p {
+    margin-top: 0;
+  }
+
+  .visitUs
+    .visitUsContentContainer
+    .visitUsContent
+    .form
+    .submitForm
+    .submitButton {
+    font: 1.9vh / 2.5vh Helvetica Neue;
+    letter-spacing: 0.09vh;
+  }
+
+  .visitUs .visitUsContentContainer .guidelines {
+    padding-top: 10%;
+  }
+
+  .visitUs .visitUsContentContainer .guidelines h1 {
+    font: normal normal bold 1.9vh / 2.5vh Helvetica Neue;
+    letter-spacing: 0.09vh;
+    text-align: left;
+  }
+
+  .visitUs .visitUsContentContainer .guidelines ul {
+    padding-left: 0;
+  }
+
+  .visitUs .visitUsContentContainer .guidelines ul li,
+  .visitUs .visitUsContentContainer .guidelines .seeMoreGuidelines {
+    font: 1.9vh / 2.5vh Helvetica Neue;
+    letter-spacing: 0.09vh;
+  }
+
+  .visitUs
+    .visitUsContentContainer
+    .guidelines
+    .seeMoreGuidelines
+    .seeMoreButton {
+    padding: 2% 6%;
+  }
+
+  .visitUs .visitUsContentContainer .formSubmitConfirmation .confirmationBox {
+    display: grid;
+    width: 85%;
+    place-items: center;
+    padding: 8% 0;
+    gap: 0;
+  }
+  .visitUs .visitUsContentContainer .formSubmitConfirmation .confirmationBox p {
+    width: 85%;
+    text-align: center !important;
+    margin-bottom: 0;
+  }
+}

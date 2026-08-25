@@ -1,0 +1,207 @@
+/* html, body {
+    overflow: auto;
+} */
+
+.navrasa {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.navrasa #fos-logo {
+  /* background-image: url("/public/FOSLogo.svg"); */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  background-repeat: no-repeat;
+  background-size: 15%;
+}
+
+.navrasa .firstPage {
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://digitalassestbucket.s3.amazonaws.com/Navrasa/DHero.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #7F4356;
+}
+
+.navrasa .science-field {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  /* scroll-snap-align: start; */
+}
+
+.navrasa .background {
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.navrasa .content {
+  margin: 0 auto;
+  min-width: 980px;
+  width: 100%;
+  position: relative;
+}
+
+.navrasa .field-image,
+.navrasa .field-text,
+.navrasa .field-number {
+  background-repeat: no-repeat !important;
+  /* background-attachment: fixed !important; */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.navrasa .field-image {
+  /* background-size: 32% !important;
+    background-position: 73.2% 68% !important; */
+  /* background-size: auto 70%; */
+  background-size: 32% 55%;
+  background-position: 82% center;
+}
+
+.navrasa .field-title {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: auto 20%;
+  background-position-y: 72% !important;
+  z-index: 2;
+}
+
+.navrasa .field-title1 {
+  position: absolute;
+  /* background-size: auto 19% !important; */
+  background-size: auto 6% !important;
+  background-position-y: 76% !important;
+  z-index: 2;
+}
+
+.navrasa .field-text {
+  background-size: 35% !important;
+  background-position: 7% 33% !important;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.navrasa .w-100 {
+  width: 100%;
+}
+
+.navrasa .w-50 {
+  width: 50%;
+}
+
+.navrasa .flex-end {
+  justify-content: flex-end;
+}
+
+.navrasa .flex {
+  display: flex;
+}
+
+.navrasa .items-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.navrasa .field-text .para1 {
+  width: 35%;
+  height: 70%;
+  padding-left: 5.5%;
+  font-size: 1.23vw;
+  line-height: 2.1vw;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: white;
+}
+
+.navrasa .field-text .para2 {
+  width: 55%;
+  color: white;
+  font-size: 1.23vw;
+  line-height: 2.1vw;
+}
+
+.navrasa .field-number {
+  /* background-size: 10% !important; */
+  background-position: 50.2% 74% !important;
+}
+
+@media only screen and (max-width: 450px) {
+  .navrasa .firstPage {
+    background-image: url(https://digitalassestbucket.s3.amazonaws.com/Navrasa/MHero.png);
+    background-size: 85%;
+    background-position-y: 95%;
+  }
+
+  .navrasa .field-title {
+    background-position-y: 8% !important;
+    background-size: 45%;
+  }
+
+  .navrasa .field-image,
+  .navrasa .field-text,
+  .navrasa .field-number {
+    width: 100vw;
+  }
+
+  .navrasa .field-image {
+    /* background-size: auto 70%; */
+    background-size: 80%;
+    background-position: center 35%;
+  }
+
+  .navrasa .field-text {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0;
+    height: 35%;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .navrasa .field-text .para1 {
+    width: 80%;
+    height: auto;
+    padding-left: 0;
+    font-size: 1.8vh;
+    line-height: 2.7vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: white;
+  }
+
+  .navrasa .field-text .para2 {
+    width: 80%;
+    color: white;
+    font-size: 1.8vh;
+    line-height: 2.7vh;
+    text-align: left;
+  }
+
+  .navrasa .w-50 {
+    width: 100%;
+  }
+}

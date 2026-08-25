@@ -1,0 +1,245 @@
+.for-body {
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .jamshedJIBio {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .jamshedJIBio .canvas-container {
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    /* cursor: url(https://digitalassestbucket.s3.amazonaws.com/CVRaman/TestSample/logo.png), */
+      /* auto; */
+  }
+  
+  .jamshedJIBio:hover {
+    /* cursor: url(https://static-00.iconduck.com/assets.00/instagram-icon-2048x2048-uc6feurl.png), auto !important; */
+    cursor: url(https://digitalassestbucket.s3.amazonaws.com/JamshetjiTata/quill.webp), auto;
+  }
+  
+  
+  .jamshedJIBio .frame-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; /* Ensures the frame doesn't block mouse/touch events on the canvas */
+    z-index: 101; /* Ensures the frame is on top */
+    /*background: radial-gradient(circle at center, transparent 70%, black 100%); /*Adjust the 50% value to control how much is transparent*/
+  }
+  
+  .jamshedJIBio .jamshedji-overlay-container {
+    height: 60vh;
+    width: 30vw;
+    position: absolute;
+    bottom: 0;
+    right: 2vw;
+    z-index: 101;
+    transition: opacity 1.5s; /* Fade-in effect*/
+  }
+  
+  .jamshedJIBio .jamshedji-overlay {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .jamshedJIBio .initial-content-container {
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    z-index: 102;
+  }
+  
+  .jamshedJIBio .initial-content {
+    font-size: 1vw;
+    width: 40vw;
+    color: white;
+    line-height: 1.5vw;
+    /* font-size: 24px; */
+    z-index: 10000;
+    white-space: pre-wrap; /* Preserves whitespace and line breaks */
+    text-align: center;
+  }
+  
+  .jamshedJIBio .chapter-title-container {
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    /* transition: opacity 1.5s; */
+  }
+  
+  .jamshedJIBio .chapter-title {
+    /* position: fixed;
+    bottom: 10vh;
+    left: 10vw; */
+    font-size: 1vw;
+    width: 40vw;
+    color: white;
+    line-height: 1.5vw;
+    /* font-size: 24px; */
+    z-index: 10000;
+    white-space: pre-wrap; /* Preserves whitespace and line breaks */
+    text-align: center;
+  }
+  
+  .jamshedJIBio .chapter-title {
+    transition: opacity 0.5s;
+    opacity: 1;
+  }
+  
+  .jamshedJIBio .chapter-title.fade-out {
+    opacity: 0;
+  }
+  
+  
+  .jamshedJIBio .chapter-content-container {
+    width: 100vw;
+    height: 15vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    transition: opacity 1.5s;
+  }
+  
+  .jamshedJIBio .chapter-content {
+    /* position: fixed;
+    bottom: 10vh;
+    left: 10vw; */
+    font-size: 1vw;
+    width: 40vw;
+    color: white;
+    line-height: 1.5vw;
+    /* font-size: 24px; */
+    z-index: 10000;
+    white-space: pre-wrap; /* Preserves whitespace and line breaks */
+    text-align: center;
+  }
+  
+  .jamshedJIBio .loader {
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+    transition: opacity 0.5s; /* Fade-in effect*/
+    display: flex;
+    justify-content: center;
+  }
+  
+  .jamshedJIBio .loader h2 {
+    z-index: 102;    
+    position: absolute;
+    bottom: 2vw;
+    color: white;
+    letter-spacing: 0.1vw;
+  }
+  
+  .jamshedJIBio .loader-book {
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  .jamshedJIBio .loader-loading {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: vertical-shaking 4s infinite;
+  }
+  
+  @keyframes vertical-shaking {
+    0% {
+      transform: translateY(-5px);
+    }
+    25% {
+      transform: translateY(5px);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    75% {
+      transform: translateY(5px);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  .jamshedJIBio .epilogue {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s ease-in-out;
+    opacity: 0; /* Initially set to invisible*/
+    z-index: 100;
+  }
+  
+  .jamshedJIBio .final-shot {
+    height: 80vh;
+    width: 80vw;
+    background-image: url(https://digitalassestbucket.s3.amazonaws.com/JamshetjiTata/finalShot.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }
+  
+  .jamshedJIBio .epilogue-content-container{
+    position: absolute;
+    bottom: 2vw;
+    color: white;
+    z-index: 102;
+    width: 100vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .jamshedJIBio .epilogue-content {
+    width: 70vw;
+    font-size: 1vw;
+    font-weight: 300;
+    letter-spacing: 0.1vw;
+    line-height: 1.5vw;
+  }
+  
+
+  /* Mobile View */
+  .mContent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+  }
+
+  .mContent div p {
+    line-height: 6vw;
+    text-align: justify;
+  }
+
+  .mContent div span {
+    color: white;
+    font-weight: bolder;
+  }
