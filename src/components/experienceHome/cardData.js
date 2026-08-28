@@ -40,18 +40,18 @@ const cardData = [
   },
  
   
-  {
-    id: "frequency_test",
-    linkType: "external",
-    linkURL: "https://master.d2nlbvj7shrjov.amplifyapp.com/",
-    buttonText: "Hearing Age Test",
-  },
-  {
-    id: "frequency_sound",
-    linkType: "external",
-    linkURL: "https://main.dpo979ruosk1k.amplifyapp.com/",
-    buttonText: "Audio Analyser",
-  }
+  // {
+  //   id: "frequency_test",
+  //   linkType: "external",
+  //   linkURL: "https://master.d2nlbvj7shrjov.amplifyapp.com/",
+  //   buttonText: "Hearing Age Test",
+  // },
+  // {
+  //   id: "frequency_sound",
+  //   linkType: "external",
+  //   linkURL: "https://main.dpo979ruosk1k.amplifyapp.com/",
+  //   buttonText: "Audio Analyser",
+  // }
 
 ];
 
