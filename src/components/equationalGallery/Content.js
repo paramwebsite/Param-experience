@@ -3,6 +3,7 @@
 import { animated } from "@react-spring/web";
 import { useTransition } from "@react-spring/core";
 import "../../pages/EquationGallery/EquationGallery.css";
+import Section from "./Section";
 const image01 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Main/Desmos.PNG";
 const image01back = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Main/desmosBack.png";
 const image2 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Main/harmono.png";
@@ -12,7 +13,7 @@ const image3back = "https://digital-applications-assets.sgp1.digitaloceanspaces.
 const image4 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Main/fact.png";
 const image4back = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Main/factBack.png";
 
-import Section from "./Section";
+
 
 export default function Content() {
   const [bgImage, setBgImage] = useState("");
