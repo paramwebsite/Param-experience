@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./FunScience.css";
-// import image from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/check.jpg";
+
 import Data from "./Data";
 import ParamNavbar from "../../components/Navbar";
 

@@ -36,3 +36,7 @@ public/Objects/
 public/PhoneBack/
 public/SpObjects/
 
+src/pages/EquationGallery/Facts/public/
+src/pages/EquationGallery/Desmos/public/
+src/components/equationalGallery/public/
+

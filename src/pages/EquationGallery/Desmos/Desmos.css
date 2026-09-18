@@ -1,7 +1,14 @@
 #desmosContainer {
     background-color: #cccccc;
-    /* background-image: url(".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/graphNew.jpg"); */
-    background: linear-gradient(180deg, rgba(54,56,67, 0),rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1)), url(.https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/graphNew.jpg);;
+  
+    background:
+  linear-gradient(
+    180deg,
+    rgba(54, 56, 67, 0),
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 1)
+  ),
+  url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Desmos/graphNew.jpg");
     background-size: 15%;
   }
 
@@ -86,7 +93,7 @@
   }
 
   #desmosContainer .example div {
-    background-image: url(".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/example.png");
+   background-image: url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Desmos/example.png");
     height: 90%;
     width: 100%;
     background-size: 70%;

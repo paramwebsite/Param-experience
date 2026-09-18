@@ -1,41 +1,41 @@
-import React from "react";
+﻿import React from "react";
 import "./Facts.css";
 import EquationNav from "../EquationNav";
 import Content from "../../../components/equationalGallery/facts/Content";
-import image01 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/1.jpg";
-import formula01 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/1txt.png";
-import image02 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/2.jpeg";
-import formula02 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/2txt.png";
-import image03 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/3.jpeg";
-import formula03 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/3txt.png";
-import image04 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/4.jpeg";
-import formula04 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/4txt.png";
-import image05 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/5.jpeg";
-import formula05 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/5txt.png";
-import image06 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/6.jpeg";
-import formula06 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/6txt.png";
-import image07 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/7.jpeg";
-import formula07 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/7txt.png";
-import image08 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/8.jpg";
-import formula08 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/8txt.png";
-import image09 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/9.jpeg";
-import formula09 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/9txt.png";
-import image10 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/10.jpg";
-import formula10 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/10txt.png";
-import image11 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/11.jpeg";
-import formula11 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/11txt.png";
-import image12 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/12.png";
-import formula12 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/12txt.png";
-import image13 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/13.jpg";
-import formula13 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/13txt.png";
-import image14 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/14.jpg";
-import formula14 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/14txt.png";
-import image15 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/15.jpeg";
-import formula15 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/15txt.png";
-import image16 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/16.jpeg";
-import formula16 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/16txt.png";
-import image17 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/17.jpg";
-import formula17 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/17txt.png";
+const image01 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/1.jpg";
+const formula01 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/1txt.png";
+const image02 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/2.jpeg";
+const formula02 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/2txt.png";
+const image03 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/3.jpeg";
+const formula03 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/3txt.png";
+const image04 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/4.jpeg";
+const formula04 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/4txt.png";
+const image05 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/5.jpeg";
+const formula05 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/5txt.png";
+const image06 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/6.jpeg";
+const formula06 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/6txt.png";
+const image07 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/7.jpeg";
+const formula07 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/7txt.png";
+const image08 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/8.jpg";
+const formula08 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/8txt.png";
+const image09 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/9.jpeg";
+const formula09 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/9txt.png";
+const image10 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/10.jpg";
+const formula10 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/10txt.png";
+const image11 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/11.jpeg";
+const formula11 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/11txt.png";
+const image12 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/12.png";
+const formula12 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/12txt.png";
+const image13 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/13.jpg";
+const formula13 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/13txt.png";
+const image14 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/14.jpg";
+const formula14 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/14txt.png";
+const image15 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/15.jpeg";
+const formula15 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/15txt.png";
+const image16 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/16.jpeg";
+const formula16 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/16txt.png";
+const image17 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/17.jpg";
+const formula17 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Facts/17txt.png";
 
 export default function Facts() {
   const contents = [
@@ -44,11 +44,11 @@ export default function Facts() {
       image: image01,
       caption: "Pythagoras, 530 BC",
       headClass: "headTitle",
-      heading: "Pythagoras’s Theorem",
+      heading: "Pythagorasâ€™s Theorem",
       formula: formula01,
-      subheading: "Applications of Pythagoras’s Theorem",
+      subheading: "Applications of Pythagorasâ€™s Theorem",
       content1:
-        "The Pythagorean theorem is a statement in geometry that shows the relationship between the lengths of the sides of a right triangle – a triangle with one 90-degree angle​​.",
+        "The Pythagorean theorem is a statement in geometry that shows the relationship between the lengths of the sides of a right triangle â€“ a triangle with one 90-degree angleâ€‹â€‹.",
       content2:
         "The Pythagorean Theorem widely used in Architecture and Construction, Laying Out Square Angles, Surveying, and  Navigation.",
     },
@@ -76,7 +76,7 @@ export default function Facts() {
       content1:
         "Calculus is a form of mathematics which was developed from algebra and geometry. It is made up of two interconnected topics, differential calculus, and integral calculus.",
       content2:
-        "Calculus is widely used for engineers, scientists, and economists. The contribution of these professionals has a huge impact on our daily life – from your microwaves, cell phones, TV, and car to medicine, economy, and national defense.",
+        "Calculus is widely used for engineers, scientists, and economists. The contribution of these professionals has a huge impact on our daily life â€“ from your microwaves, cell phones, TV, and car to medicine, economy, and national defense.",
     },
     {
       additionalClass: "addInvPad",
@@ -99,7 +99,7 @@ export default function Facts() {
       heading: "The Square Root of Minus One",
       formula: formula05,
       subheading: "The significance of the Imaginary number ",
-      content1: `Imaginary number is a complex number that can be written as a real number multiplied by the imaginary unit i, which is defined by its property i<sup>2</sup> = −1.`,
+      content1: `Imaginary number is a complex number that can be written as a real number multiplied by the imaginary unit i, which is defined by its property i<sup>2</sup> = âˆ’1.`,
       content2:
         "In mathematics, we use the imaginary unit 'i' to represent the square root of -1. It helps simplify equations and calculations, especially in electrical engineering where these imaginary numbers are frequently utilized in various operations.",
     },
@@ -108,7 +108,7 @@ export default function Facts() {
       image: image06,
       caption: "Euler, 1751",
       headClass: "",
-      heading: "Euler’s Formula for Polyhedra",
+      heading: "Eulerâ€™s Formula for Polyhedra",
       formula: formula06,
       subheading: "Significance of Euler's Identity",
       content1:
@@ -138,7 +138,7 @@ export default function Facts() {
       formula: formula08,
       subheading: "Wave equation application",
       content1:
-        "The wave equation is an important second-order linear partial differential equation for the description of waves—as they occur in classical physics—such as mechanical waves (e.g. water waves, sound waves and seismic waves) or light waves. It arises in fields like acoustics, electromagnetics, and fluid dynamics.",
+        "The wave equation is an important second-order linear partial differential equation for the description of wavesâ€”as they occur in classical physicsâ€”such as mechanical waves (e.g. water waves, sound waves and seismic waves) or light waves. It arises in fields like acoustics, electromagnetics, and fluid dynamics.",
       content2:
         "The wave equation is used to predict how waves propagate in various mediums, crucial for designing buildings in earthquake-prone areas. It's also fundamental in optics and telecommunications, guiding signal transmission and lens design.",
     },
@@ -164,11 +164,11 @@ export default function Facts() {
       image: image10,
       caption: "C. Navier, G. Stokes, 1845",
       headClass: "",
-      heading: "Navier – Stokes Equation",
+      heading: "Navier â€“ Stokes Equation",
       formula: formula10,
       subheading: "Significance of Navier Stokes Equation",
       content1:
-        "This equations arise from applying isaac newton’s second law to fluid motion, together with the assumption that the stress in the fluid is the sum of a diffusing viscousterm (proportional to the gradient of velocity) and a pressure term hence describing viscous flow.",
+        "This equations arise from applying isaac newtonâ€™s second law to fluid motion, together with the assumption that the stress in the fluid is the sum of a diffusing viscousterm (proportional to the gradient of velocity) and a pressure term hence describing viscous flow.",
       content2:
         "Navier Stokes equation is used to describe the flow characteristics of a Newtonian fluid. A fluid in which relation between stress and rate of strain is linear. In other words, a fluid obeys Newton law of viscosity. Honey, Benzene, Water, Kerosene oil, are just a few examples of a Newtonian fluid.",
     },
@@ -177,13 +177,13 @@ export default function Facts() {
       image: image11,
       caption: "J.C. Maxwell, 1865",
       headClass: "",
-      heading: "Maxwell’s Equations",
+      heading: "Maxwellâ€™s Equations",
       formula: formula11,
-      subheading: "Significance of Maxwell’s Equations",
+      subheading: "Significance of Maxwellâ€™s Equations",
       content1:
-        "Maxwell’s equations are a set of partial differential equations that, form the foundation of classical electromagnetism, classical optics, and electric circuits. The equations provide a mathematical model for electric, optical and radio technologies, such as power generation, electric motors, wireless communication, lenses, radar etc.",
+        "Maxwellâ€™s equations are a set of partial differential equations that, form the foundation of classical electromagnetism, classical optics, and electric circuits. The equations provide a mathematical model for electric, optical and radio technologies, such as power generation, electric motors, wireless communication, lenses, radar etc.",
       content2:
-        "Maxwell’s equations often involve calculus, there are simplified versions of the equations. These versions only work in certain circumstances, but can be useful and save a lot of trouble.",
+        "Maxwellâ€™s equations often involve calculus, there are simplified versions of the equations. These versions only work in certain circumstances, but can be useful and save a lot of trouble.",
     },
     {
       additionalClass: "addInvPad",
@@ -217,11 +217,11 @@ export default function Facts() {
       image: image14,
       caption: "E.Schrodinger, 1927",
       headClass: "",
-      heading: "Schrodinger’s Equation",
+      heading: "Schrodingerâ€™s Equation",
       formula: formula14,
-      subheading: "Significance of Schrodinger’s Equation",
+      subheading: "Significance of Schrodingerâ€™s Equation",
       content1:
-        "Schrödinger equation is a mathematical equation that describes the changes over time of a physical system in which quantum effects, such as wave particle duality, are significant.",
+        "SchrÃ¶dinger equation is a mathematical equation that describes the changes over time of a physical system in which quantum effects, such as wave particle duality, are significant.",
       content2:
         "The Schrodinger equation is used to find the allowed energy levels of quantum mechanical systems (such as atoms, or transistors). The associated wavefunction gives the probability of finding the particle at a certain position. The solution to this equation is a wave that describes the quantum aspects of a system.",
     },
@@ -264,11 +264,11 @@ export default function Facts() {
       image: image17,
       caption: "F. Black, M. Scholes, 1990",
       headClass: "",
-      heading: "Black – Scholes Equation",
+      heading: "Black â€“ Scholes Equation",
       formula: formula17,
-      subheading: "Applications of Black – Scholes Equation:",
+      subheading: "Applications of Black â€“ Scholes Equation:",
       content1:
-        "Black–scholes–merton model is a mathematical model for the dynamics of a financial market containing derivative investment instruments.",
+        "Blackâ€“scholesâ€“merton model is a mathematical model for the dynamics of a financial market containing derivative investment instruments.",
       content2: `<ol>
         <li>Risk-Neutral valuation</li>
         <li>Market research</li>
@@ -307,3 +307,4 @@ export default function Facts() {
     </div>
   );
 }
+

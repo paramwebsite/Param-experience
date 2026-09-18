@@ -1,16 +1,16 @@
-import React, { useState, useEffect, useRef } from "react";
+﻿import React, { useState, useEffect, useRef } from "react";
 
 import { animated } from "@react-spring/web";
 import { useTransition } from "@react-spring/core";
 import "../../pages/EquationGallery/EquationGallery.css";
-import image01 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/Desmos.PNG";
-import image01back from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/desmosBack.png";
-import image2 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/harmono.png";
-import image2back from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/harmonoBack.png";
-import image3 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/attractor.png";
-import image3back from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/attractorBack.png";
-import image4 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/fact.png";
-import image4back from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/factBack.png";
+const image01 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Main/Desmos.PNG";
+const image01back = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Main/desmosBack.png";
+const image2 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Main/harmono.png";
+const image2back = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Main/harmonoBack.png";
+const image3 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Main/attractor.png";
+const image3back = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Main/attractorBack.png";
+const image4 = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Main/fact.png";
+const image4back = "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/EquationGallery/Main/factBack.png";
 
 import Section from "./Section";
 
@@ -127,3 +127,4 @@ export default function Content() {
     </>
   );
 }
+
