@@ -2,10 +2,10 @@
 
 # dependencies
 /node_modules
-/public/Pitch
+https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/Pitch
 /.pnp
 .pnp.js
-/src/pages/PitchDeck/public/pitchDeck.mp4
+/src/pages/PitchDeckhttps://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/pitchDeck.mp4
 /.env
 .env
 # testing

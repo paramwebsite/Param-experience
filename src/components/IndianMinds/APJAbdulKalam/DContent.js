@@ -12,7 +12,7 @@ function DContent() {
   const frameCount = 573;
   const lastLoadedFrameRef = useRef(0);
   const preloadAmount = 200; // Number of images to preload ahead of the current frame
-  const imageCache = useRef(); // Store loaded images for quick access/Users/software/Documents/Shivam/Hackathon/Space/public/Comp 1/space (1).png
+  const imageCache = useRef(); // Store loaded images for quick access/Users/software/Documents/Shivam/Hackathon/Spacehttps://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/Comp 1/space (1).png
   const currentScrollRef = useRef(0); // Initializing a ref to store currentScroll
 
 
@@ -45,7 +45,7 @@ function DContent() {
         return;
       }
       // let reverseIndex = frameCount - index + 1;
-      return "https://digitalassestbucket.s3.amazonaws.com/APJ+abdul+Kalam/Kalam+(" + index + ").webp";
+      return "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/APJ+abdul+Kalam/Kalam+(" + index + ").webp";
     //   return "/Kalam/Kalam (" + index + ").webp";
     };
 

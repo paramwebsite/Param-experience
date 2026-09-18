@@ -38,7 +38,7 @@
 .digitalGallery .nav #logo,
 .cardboardGallery .nav #logo,
 .kineticGallery .nav #logo {
-  background-image: url(/public/logo-black.png);
+  background-image: url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/logo-black.png);
 }
 
 .introGallery .introContent,
@@ -124,9 +124,9 @@
   width: 93%;
   position: relative;
   /* For Placeholder purpose 
-   background-image: url(/public/placeHolders/PARSEC/placeholder.jpg);
+   background-image: url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/placeHolders/PARSEC/placeholder.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-    url(https://digitalassestbucket.s3.amazonaws.com/IncityGallery/parsec.webp); */
+    url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/IncityGallery/parsec.webp); */
   background-size: cover;
   background-position: center;
   /* For Placeholder purpose */
@@ -941,7 +941,7 @@
 }
 
 /* .incity .incityContent .cardSlots .cardSlot .cardDisplay .redirectIcon {
-  background-image: url(https://digitalassestbucket.s3.amazonaws.com/IncityGallery/Icons/RedirectIcon.svg);
+  background-image: url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/IncityGallery/Icons/RedirectIcon.svg);
   height: 5.2vw;
   width: 5.2vw;
   background-size: contain;

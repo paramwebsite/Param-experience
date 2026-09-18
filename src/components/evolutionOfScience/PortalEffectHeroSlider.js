@@ -4,10 +4,10 @@ import "./loader.css";
 import { gsap } from "gsap";
 
 const PortalEffectHeroSlider = () => {
-  const portalImage = `https://digitalassestbucket.s3.amazonaws.com/SciEvolution/gate.png`;
+  const portalImage = `https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/SciEvolution/gate.png`;
   // const portalImage = `${process.env.PUBLIC_URL}/gate.webp`;
   const images = Array.from({ length: 18 }, (_, index) => {
-    return `https://digitalassestbucket.s3.amazonaws.com/SciEvolution/BACKGROUND/Back@${
+    return `https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/SciEvolution/BACKGROUND/Back@${
       index + 1
     }.webp`;
   });

@@ -3,14 +3,14 @@ import React, { useState, useEffect, useRef } from "react";
 import { animated } from "@react-spring/web";
 import { useTransition } from "@react-spring/core";
 import "../../pages/EquationGallery/EquationGallery.css";
-import image01 from "./public/Desmos.PNG";
-import image01back from "./public/desmosBack.png";
-import image2 from "./public/harmono.png";
-import image2back from "./public/harmonoBack.png";
-import image3 from "./public/attractor.png";
-import image3back from "./public/attractorBack.png";
-import image4 from "./public/fact.png";
-import image4back from "./public/factBack.png";
+import image01 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/Desmos.PNG";
+import image01back from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/desmosBack.png";
+import image2 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/harmono.png";
+import image2back from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/harmonoBack.png";
+import image3 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/attractor.png";
+import image3back from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/attractorBack.png";
+import image4 from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/fact.png";
+import image4back from ".https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/factBack.png";
 
 import Section from "./Section";
 

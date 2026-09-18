@@ -42,7 +42,7 @@
 }
 
 .illusionGallery .tactileContent .tactileContentBanner {
-  background-image: url(/public/incity/1.jpg);
+  background-image: url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/incity/1.jpg);
   background-size: 90%;
   background-repeat: no-repeat;
   background-position: center;
@@ -88,7 +88,7 @@
 }
 
 .navrasa #fos-logo {
-  /* background-image: url("/public/FOSLogo.svg"); */
+  /* background-image: url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/FOSLogo.svg"); */
   height: 100%;
   width: 100%;
   position: absolute;
@@ -101,7 +101,7 @@
 .navrasa .firstPage {
   height: 100vh;
   width: 100%;
-  background-image: url(https://digitalassestbucket.s3.amazonaws.com/Navrasa/DHero.png);
+  background-image: url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/Navrasa/DHero.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -226,7 +226,7 @@
 
 @media only screen and (max-width: 450px) {
   .navrasa .firstPage {
-    background-image: url(https://digitalassestbucket.s3.amazonaws.com/Navrasa/MHero.png);
+    background-image: url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/Navrasa/MHero.png);
     background-size: 85%;
     background-position-y: 95%;
   }

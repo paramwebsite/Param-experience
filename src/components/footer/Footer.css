@@ -12,7 +12,7 @@
 }
 
 .footer .mapContainer {
-  background-image: url(/public/mapbanner.svg);
+  background-image: url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/mapbanner.svg);
   background-size: cover;
   width: 90%;
   display: flex;
@@ -94,7 +94,7 @@
 
 .footer .footerMainContent .logo {
   width: 40%;
-  background-image: url(/public/footerParam.svg);
+  background-image: url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/footerParam.svg);
   background-size: 35%;
   background-repeat: no-repeat;
   background-position: center;
@@ -305,7 +305,7 @@
   }
 
   .footer .mapContainer {
-    background-image: url(/public/mapBannerMobile.svg);
+    background-image: url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/mapBannerMobile.svg);
     justify-content: center;
     flex-direction: column-reverse;
     gap: 3vh;

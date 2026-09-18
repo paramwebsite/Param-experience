@@ -103,7 +103,7 @@ export default function DContent() {
         .fill()
         .map((_, index) =>
           textureLoader.load(
-            `https://digitalassestbucket.s3.amazonaws.com/JamshetjiTata/Scene${
+            `https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/JamshetjiTata/Scene${
               index + 1
             }layer1.webp`
           )
@@ -137,7 +137,7 @@ export default function DContent() {
         .fill()
         .map((_, index) =>
           textureLoader.load(
-            `https://digitalassestbucket.s3.amazonaws.com/JamshetjiTata/Scene${
+            `https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/JamshetjiTata/Scene${
               index + 1
             }layer2.webp`
           )
@@ -170,7 +170,7 @@ export default function DContent() {
         .fill()
         .map((_, index) =>
           textureLoader.load(
-            `https://digitalassestbucket.s3.amazonaws.com/JamshetjiTata/Scene${
+            `https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/JamshetjiTata/Scene${
               index + 1
             }layer3.webp`
           )
@@ -209,7 +209,7 @@ export default function DContent() {
         .fill()
         .map((_, index) =>
           textureLoader.load(
-            `https://digitalassestbucket.s3.amazonaws.com/JamshetjiTata/Scene${
+            `https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/JamshetjiTata/Scene${
               index + 1
             }layer4.webp`
           )
@@ -252,7 +252,7 @@ export default function DContent() {
         .fill()
         .map((_, index) =>
           textureLoader.load(
-            `https://digitalassestbucket.s3.amazonaws.com/JamshetjiTata/Scene${
+            `https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/JamshetjiTata/Scene${
               index + 1
             }layer5.webp`
           )
@@ -510,12 +510,12 @@ export default function DContent() {
         style={{ opacity: isLoaderVisRef.current ? 1 : 0 }}
       >
         <img
-          src="https://digitalassestbucket.s3.amazonaws.com/JamshetjiTata/Book.webp"
+          src="https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/JamshetjiTata/Book.webp"
           alt="IISc"
           className="loader-book"
         />
         <img
-          src="https://digitalassestbucket.s3.amazonaws.com/JamshetjiTata/loading.webp"
+          src="https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/JamshetjiTata/loading.webp"
           alt="Loading"
           className="loader-loading"
         />
@@ -547,7 +547,7 @@ export default function DContent() {
 
       {/*  Frame  */}
       <img
-        src="https://digitalassestbucket.s3.amazonaws.com/JamshetjiTata/frame.webp"
+        src="https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/JamshetjiTata/frame.webp"
         alt="Frame"
         className="frame-overlay"
       />
@@ -559,7 +559,7 @@ export default function DContent() {
         style={{ opacity: showEpilogue ? 0 : jamsedjiOpacityRef.current }}
       >
         <img
-          src="https://digitalassestbucket.s3.amazonaws.com/JamshetjiTata/jamshedji.webp"
+          src="https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/JamshetjiTata/jamshedji.webp"
           alt="Jamshedji"
           className="jamshedji-overlay"
         />

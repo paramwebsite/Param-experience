@@ -12,7 +12,7 @@ function PitchDeck() {
     <div className="pitchDeckContainer">
       <ParamNavbar />
       <iframe
-        src="https://digitalassestbucket.s3.amazonaws.com/Pitch/index.html"
+        src="https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/Pitch/index.html"
         title="External Page"
         id="pitchIframe"
         frameborder="0"

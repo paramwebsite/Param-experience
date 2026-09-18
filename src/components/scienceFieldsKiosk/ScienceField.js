@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 
 const ScienceField = forwardRef((props, ref) => {
   const { id } = props; 
-  const basePath = `https://digitalassestbucket.s3.amazonaws.com/Fields+of+Science`;
+  const basePath = `https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/Fields+of+Science`;
 
   // Generate paths dynamically
   const paths = {

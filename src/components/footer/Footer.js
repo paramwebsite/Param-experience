@@ -27,23 +27,23 @@ const redirects = [
 
 const icons = [
   {
-    icon: "https://digitalassestbucket.s3.amazonaws.com/paramscience/footer/icons/Instagram.svg",
+    icon: "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/paramscience/footer/icons/Instagram.svg",
     redirectUrl: "https://www.instagram.com/paraminnovation/",
   },
   {
-    icon: "https://digitalassestbucket.s3.amazonaws.com/paramscience/footer/icons/Facebook.svg",
+    icon: "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/paramscience/footer/icons/Facebook.svg",
     redirectUrl: "https://www.facebook.com/paraminnovation/",
   },
   {
-    icon: "https://digitalassestbucket.s3.amazonaws.com/paramscience/footer/icons/X.svg",
+    icon: "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/paramscience/footer/icons/X.svg",
     redirectUrl: "https://twitter.com/paraminnovation",
   },
   {
-    icon: "https://digitalassestbucket.s3.amazonaws.com/paramscience/footer/icons/YouTube.svg",
+    icon: "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/paramscience/footer/icons/YouTube.svg",
     redirectUrl: "https://youtube.com/@ParamScienceExperience?feature=shared",
   },
   {
-    icon: "https://digitalassestbucket.s3.amazonaws.com/paramscience/footer/icons/WhatsApp.svg",
+    icon: "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/paramscience/footer/icons/WhatsApp.svg",
     redirectUrl: "https://chat.whatsapp.com/LvIfbDlFzPeEFadbw3QOPs",
   },
 ];

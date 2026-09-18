@@ -15,7 +15,7 @@
     position:absolute;
  }
  .ScienceAplicationElectricSpherelogo{
-     background: url("/public/logo.png");
+     background: url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/logo.png");
      background-size: 50px;
      width: 15%;
      background-repeat: no-repeat;

@@ -10,7 +10,7 @@
 }
 
 .scienceFieldsKiosk #fos-logo {
-    background-image: url("/public/FOSLogo.svg");
+    background-image: url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/FOSLogo.svg");
     height: 100%;
     width: 100%;
     position: relative;

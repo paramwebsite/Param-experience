@@ -12,7 +12,7 @@ function RSSPitchDeck() {
     <div className="pitchDeckContainer">
       <ParamNavbar />
       <iframe
-        src="https://digitalassestbucket.s3.us-east-1.amazonaws.com/RssPitch/index.html"
+        src="https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/RssPitch/index.html"
         title="External Page"
         id="pitchIframe"
         frameborder="0"

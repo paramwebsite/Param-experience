@@ -275,7 +275,7 @@
   .formSubmitConfirmation
   .confirmationBox
   .confirmationIcon {
-  /* background-image: url(/public/confirmation.svg); */
+  /* background-image: url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/confirmation.svg); */
 }
 
 @media only screen and (max-width: 450px) {

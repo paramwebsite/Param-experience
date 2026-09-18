@@ -89,7 +89,7 @@ const Sidebar = ({ fieldRefs, setLoading }) => {
       <div className="sidebar">
         <div className="color-bar" ref={colorBarRef}></div>
         <img
-          src="https://digitalassestbucket.s3.amazonaws.com/Fields+of+Science/Asset/Pointer.svg"
+          src="https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/Fields+of+Science/Asset/Pointer.svg"
           className="marker"
           ref={markerRef}
           alt="Marker"

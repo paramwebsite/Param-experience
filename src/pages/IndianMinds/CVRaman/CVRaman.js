@@ -9,7 +9,7 @@ export default function CVRaman() {
 
   useEffect(() => {
     // Fetch the content of cvraman.html
-    fetch("https://digitalassestbucket.s3.amazonaws.com/CVRaman/Cvraman.html")
+    fetch("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/CVRaman/Cvraman.html")
       .then((response) => response.text())
       .then((data) => setHtmlContent(data))
       .catch((error) => console.error("Error fetching HTML:", error));
@@ -19,14 +19,14 @@ export default function CVRaman() {
       <IMNavbar />
 
       <div className="CvRaman">
-      <iframe src="https://digitalassestbucket.s3.amazonaws.com/CVRaman/Cvraman.html" title="External Page" id="cviframe" frameborder="0"></iframe>
+      <iframe src="https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/CVRaman/Cvraman.html" title="External Page" id="cviframe" frameborder="0"></iframe>
            
       
       {/* Include external CSS */}
-      <link rel="stylesheet" href="https://digitalassestbucket.s3.amazonaws.com/CVRaman/style.ff1c4cab.css" />
+      <link rel="stylesheet" href="https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/CVRaman/style.ff1c4cab.css" />
       
       {/* Include external JavaScript */}
-      <script src="https://digitalassestbucket.s3.amazonaws.com/CVRaman/cvraman.js"></script>
+      <script src="https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/CVRaman/cvraman.js"></script>
       </div>
 
     </div>

@@ -45,7 +45,7 @@
 }
 
 .kineticGallery .kineticContent .kineticContentBanner {
-  background-image: url(https://digitalassestbucket.s3.amazonaws.com/IncityGallery/gallery-images/kinetic.webp);
+  background-image: url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/IncityGallery/gallery-images/kinetic.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 15%;
