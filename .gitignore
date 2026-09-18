@@ -24,3 +24,15 @@ https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbuc
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Large assets - stored in DigitalOcean Spaces
+public/Back/
+public/EasterEggs/
+public/ExperiencePage/
+public/GamingZone/
+public/Highlights/
+public/MBack/
+public/Objects/
+public/PhoneBack/
+public/SpObjects/
+
