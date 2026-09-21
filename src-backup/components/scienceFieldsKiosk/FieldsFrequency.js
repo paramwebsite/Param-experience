@@ -1,0 +1,31 @@
+const fieldsFrequency = [
+    { letter: 'A', count: 6 },
+    { letter: 'B', count: 4 },
+    { letter: 'C', count: 1 },
+    { letter: 'D', count: 0 },
+    { letter: 'E', count: 3 },
+    { letter: 'F', count: 3 },
+    { letter: 'G', count: 3 },
+    { letter: 'H', count: 1 },
+    { letter: 'I', count: 2 },
+    { letter: 'J', count: 1 },
+    { letter: 'K', count: 0 },
+    { letter: 'L', count: 2 },
+    { letter: 'M', count: 7 },
+    { letter: 'N', count: 3 },
+    { letter: 'O', count: 1 },
+    { letter: 'P', count: 4 },
+    { letter: 'Q', count: 1 },
+    { letter: 'R', count: 2 },
+    { letter: 'S', count: 4 },
+    { letter: 'T', count: 0 },
+    { letter: 'U', count: 0 },
+    { letter: 'V', count: 2 },
+    { letter: 'W', count: 0 },
+    { letter: 'X', count: 1 },
+    { letter: 'Y', count: 1 },
+    { letter: 'Z', count: 1 },
+    // ... other letters
+  ];
+
+  export default fieldsFrequency;

@@ -89,7 +89,7 @@ const Sidebar = ({ fieldRefs, setLoading }) => {
       <div className="sidebar">
         <div className="color-bar" ref={colorBarRef}></div>
         <img
-          src="https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/Fields+of+Science/Asset/Pointer.svg"
+          src="https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/Fields%20of%20Science/Asset/Pointer.svg"
           className="marker"
           ref={markerRef}
           alt="Marker"
@@ -110,3 +110,6 @@ const Sidebar = ({ fieldRefs, setLoading }) => {
 };
 
 export default Sidebar;
+
+
+

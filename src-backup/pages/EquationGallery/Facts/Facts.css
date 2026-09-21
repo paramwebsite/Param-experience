@@ -1,0 +1,397 @@
+.factsContainer {
+    background: transparent linear-gradient(180deg, #5D327D 0%, #0D205D 100%);
+    overflow-y: auto;
+}
+
+.factsContainer .factsLogo {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 8%;
+    font-size: 1vw;
+    color: white;
+}
+
+.factsContainer .factsContain {
+    padding-right: 5%;
+}
+
+.factsContainer .mobileDivision {
+    display: none;
+}
+
+.factsContainer #addPad {
+    padding-top: 8%;
+}
+
+.factsContainer #addInvPad .inventorData {
+    padding-bottom: 1%;
+}
+
+.factsContainer .facts {
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: start;
+}
+
+.factsContainer .headContainer {
+    display: flex;
+    /* padding-top: 8%; */
+    padding-left: 4%;
+}
+
+.factsContainer .headContainer .content {
+    width: 60%;
+}
+
+.factsContainer .headContainer .content .contents {
+    height: auto;
+}
+
+.factsContainer .headContainer .content .heading {
+    width: 70%;
+}
+
+.factsContainer .headContainer .content .heading h1 {
+    font-size: 80px;
+    font: normal normal bold 4.1vw/4.1vw Helvetica Neue;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.factsContainer .headContainer .inventorData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.factsContainer .headContainer .inventorData .imageContainer img {
+    box-shadow: 5px 5px 18px #000000;
+    border-radius: 20px;
+}
+
+.factsContainer .headContainer .inventorData .imageContainer .image {
+    object-fit: cover;
+}
+
+.factsContainer .headContainer .content .content1 {
+    width: 75%;
+    color: white;
+}
+
+.factsContainer .headContainer .content .formula {
+    display: flex;
+    position: relative;
+    height: 7.1vw;
+    /* height: auto; */
+    width: auto;
+}
+
+.factsContainer .headContainer .content .formula .formulaExp {
+    object-fit: cover;
+}
+
+.factsContainer .division {
+    display: flex;
+}
+
+.factsContainer .division .hr1 {
+    width: 50%;
+}
+
+.factsContainer .division .hr2 {
+    width: 35%;
+}
+
+
+.factsContainer .subheadContainer {
+    display: flex;
+    padding-left: 4%;
+    color: white;
+}
+
+.factsContainer .subheadContainer .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.factsContainer .subheadContainer .content .subheading h1 {
+    /* margin: 1px; */
+    font-size: 1.9vw;
+}
+
+.factsContainer .subheadContainer .content {
+    width: 60%;
+}
+
+.factsContainer .subheadContainer .content .content2 {
+    width: 85%;
+}
+
+.factsContainer .subheadContainer .caption {
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.factsContainer .content1,
+.factsContainer .content2 {
+    font: normal normal normal 1.2vw/1.7vw PT Sans;
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .factsContainer .factsLogo {
+        height: 100px;
+    }
+
+    .factsContainer .headContainer .inventorData .imageContainer img {
+        width: 350px !important;
+        height: 350px !important;
+    }
+
+    .factsContainer .headContainer .inventorData {
+        justify-content: end;
+    }
+
+    .factsContainer .headContainer .content .heading h1 {
+        font: normal normal bold 50px/60px Helvetica Neue;
+    }
+
+    .factsContainer .headContainer .content .content1 {
+        width: 95%;
+        font-size: large;
+    }
+
+    .factsContainer .subheadContainer .content .subheading h1 {
+        font: normal normal bold 30px/30px Helvetica Neue;
+    }
+
+    .factsContainer .subheadContainer .content .content2 {
+        width: 95%;
+        font-size: large;
+    }
+
+    .factsContainer .subheadContainer .caption {
+        align-items: baseline;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+
+    .factsContainer .factsLogo {
+        height: 80px;
+    }
+
+    .factsContainer .headContainer .content .heading {
+        width: 100%;
+    }
+
+    .factsContainer .headContainer .inventorData .imageContainer img {
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    .factsContainer .headContainer .inventorData {
+        justify-content: center;
+    }
+
+    .factsContainer .headContainer .content .heading h1 {
+        font: normal normal bold 40px/45px Helvetica Neue;
+        /* margin-top: 15%; */
+    }
+
+    .factsContainer .headContainer .content .content1 {
+        width: 95%;
+        font-size: large;
+    }
+
+    .factsContainer .subheadContainer .content .subheading h1 {
+        font: normal normal bold 30px/30px Helvetica Neue;
+    }
+
+    .factsContainer .subheadContainer .content .content2 {
+        width: 95%;
+        font-size: large;
+    }
+
+    .factsContainer .subheadContainer .caption {
+        align-items: baseline;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .factsContainer .factsLogo {
+        /* height: 45px; */
+        display: none;
+    }
+
+    .factsContainer .MfactsLogo {
+        height: 45px;
+        display: contents;
+        font-size: 1.6vh;
+    }
+
+    .factsContainer .mobileDivision {
+        position: absolute;
+        width: 100%;
+        align-items: center;
+        top: 10%;
+        display: flex;
+        flex-direction: column;
+        /* gap: 0.2em; */
+    }
+
+    .factsContainer .mobileDivision hr {
+        width: 90%;
+    }
+
+    .factsContainer #addPad {
+        padding-top: 35%;
+    }
+
+    .factsContainer #addInvPad .inventorData {
+        padding-bottom: 1%;
+    }
+
+    .factsContainer .headContainer .content .heading {
+        width: 100%;
+    }
+
+    .factsContainer .headContainer .inventorData .imageContainer img {
+        /* padding-top: 5%; */
+        width: 145px !important;
+        height: 190px !important;
+    }
+
+    .factsContainer .headContainer .inventorData {
+        justify-content: flex-start;
+        padding-top: 8%;
+    }
+
+    .factsContainer .headContainer .inventorData .imageContainer {
+        height: 50%;
+    }
+
+    .factsContainer .headContainer .content .heading h1 {
+        font: normal normal bold 30px/35px Helvetica Neue;
+        /* margin-top: 40%; */
+        margin-bottom: 5%;
+        position: relative;
+    }
+
+    .factsContainer .headContainer .content .contents {
+        height: auto;
+    }
+
+    .factsContainer .headContainer .content .content1 {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+        line-height: 20px;
+    }
+
+    .factsContainer .headContainer .content .formula {
+        height: auto;
+    }
+
+    .factsContainer .headContainer .content .formula .formulaExp {
+        height: 100% !important;
+        width: 90vw !important;
+        padding-top: 9%;
+    }
+
+    .factsContainer .subheadContainer {
+        flex-direction: column;
+    }
+
+    .factsContainer .subheadContainer .content {
+        width: 100%;
+        gap: 1em;
+    }
+
+    .factsContainer .division .hr2 {
+        display: none;
+    }
+
+    .factsContainer .division .hr1 {
+        width: 90%;
+    }
+
+    .factsContainer .subheadContainer .content .subheading h1 {
+        font: normal normal bold 30px/30px Helvetica Neue;
+    }
+
+    .factsContainer .subheadContainer .content .content2 {
+        width: 95%;
+        font-size: medium;
+        line-height: 20px;
+    }
+
+    .factsContainer .subheadContainer .caption {
+        align-items: baseline;
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+
+    .factsContainer .factsLogo {
+        height: 40px;
+    }
+
+    .factsContainer #addPad {
+        padding-top: 35%;
+    }
+
+    .factsContainer #addInvPad .inventorData {
+        padding-bottom: 1%;
+    }
+
+    .factsContainer .headContainer .inventorData .imageContainer img {
+        /* padding-top: 5%; */
+        width: 130px !important;
+        height: 190px !important;
+    }
+
+    .factsContainer .headContainer .content .heading h1 {
+        font: normal normal bold 28px/30px Helvetica Neue;
+        /* margin-top: 55%; */
+        margin-bottom: 5%;
+    }
+
+    .factsContainer .headContainer .content .formula .formulaExp {
+        height: 90% !important;
+        width: 90vw !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .factsContainer .factsLogo {
+        height: 40px;
+    }
+
+    .factsContainer #addPad {
+        padding-top: 38%;
+    }
+
+    .factsContainer #addInvPad .inventorData {
+        padding-bottom: 1%;
+    }
+
+    .factsContainer .headContainer .content .heading h1 {
+        font: normal normal bold 24px/30px Helvetica Neue;
+        /* margin-top: 55%; */
+        margin-bottom: 5%;
+    }
+
+    .factsContainer .headContainer .content .formula .formulaExp {
+        height: 82% !important;
+        width: 90vw !important;
+    }
+}

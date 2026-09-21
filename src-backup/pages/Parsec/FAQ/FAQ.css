@@ -1,0 +1,112 @@
+.faqPage .faqContainer {
+  padding: 8% 0;
+}
+
+.faqPage .faqContainer .faqContent .faqList {
+  padding-top: 5%;
+}
+
+.faqPage .faqContainer .faqContent h2 {
+  color: #555558;
+}
+
+.faqPage .faqContainer .faqContent .faq {
+  width: 100%;
+  transition: 0.3s ease-out;
+  position: relative;
+  font: normal normal normal 1.04vw / 1.6vw Helvetica Neue;
+  letter-spacing: 0.05vw;
+  overflow: hidden;
+  height: 10vh;
+}
+
+.faqPage .faqContainer .faqContent .faq hr {
+  margin-bottom: 0;
+}
+
+/* .faqPage .faqContainer .faqContent .faq.hide {
+    height: 5vh;
+}
+
+.faqPage .faqContainer .faqContent .faq.show {
+    height: 11vh;
+} */
+
+.faqPage .faqContainer .faqContent .faq img {
+  /* position: absolute;
+  right: 2%;
+  top: 5vh; */
+  transition: 0.3s ease;
+}
+
+.faqPage .faqContainer .faqContent .faq img:hover {
+  cursor: pointer;
+}
+
+.faqPage .faqContainer .faqContent .faq img.expanded {
+  transform: rotate(90deg);
+}
+
+.faqPage .faqContainer .faqContent .faq .faqQuestion,
+.faqPage .faqContainer .faqContent .faq .faqAnswer {
+  padding: 3%;
+  width: 90%;
+}
+
+.faqPage .faqContainer .faqContent .faq .faqQuestion{
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 450px) {
+  .faqPage .faqContainer {
+    padding: 18% 0;
+  }
+
+  .faqPage .faqContainer .faqContent {
+    width: 90%;
+  }
+
+  .faqPage .faqContainer .faqContent h2 {
+    font: normal normal bold 1.9vh / 2.5vh Helvetica Neue;
+    letter-spacing: 0.09vh;
+  }
+
+  .faqPage .faqContainer .faqContent p {
+    font: 1.9vh / 2.5vh Helvetica Neue;
+    letter-spacing: 0.09vh;
+    width: 95%;
+    padding-bottom: 5vh;
+  }
+
+  .faqPage .faqContainer .faqContent input {
+    width: 90%;
+    font: 1.9vh / 2.5vh Helvetica Neue;
+    letter-spacing: 0.09vh;
+    padding: 5%;
+  }
+
+  .faqPage .faqContainer .faqContent .faq{
+    font: normal normal bold 1.9vh / 2.5vh Helvetica Neue;
+    letter-spacing: 0.09vh;
+  }
+
+  .faqPage .faqContainer .faqContent .faq {
+    height: auto;
+  }
+
+  .faqPage .faqContainer .faqContent .faq .faqQuestion,
+  .faqPage .faqContainer .faqContent .faq .faqAnswer  {
+    /* width: 65%; */
+    padding: 4.7% 3%;
+  }
+
+  .faqPage .faqContainer .faqContent .faq hr {
+    margin: 0;
+  }
+
+  .faqPage .faqContainer .faqContent .faq img{
+    top: 2.4vh;
+  }
+}

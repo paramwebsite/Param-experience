@@ -70,7 +70,7 @@ code {
 }
 
 .expHomePage .nav #logo {
-  background-image: url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/logo.png);
+  background-image: url(https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/logo.png);
 }
 
 .expHomePage .nav .home {
@@ -281,7 +281,7 @@ code {
 }
 
 #logo {
-  background: url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/logo.png");
+  background: url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/logo.png");
   background-size: cover;
   width: 6vw;
   height: 6vw;
@@ -373,7 +373,7 @@ code {
   padding: 50px;
   justify-content: space-evenly;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/exprience.png);
+    url(https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/exprience.png);
   /* width: 100%; */
   height: 100vh;
   background-size: 100% 100%;
@@ -508,7 +508,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/Indianminds.webp");
+    url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/Indianminds.webp");
   background-size: cover;
 }
 
@@ -520,7 +520,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/metaverse.webp");
+    url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/metaverse.webp");
   background-size: cover;
   background-position: center;
 }
@@ -533,7 +533,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/gaming.webp");
+    url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/gaming.webp");
   background-size: cover;
   background-position: center;
 }
@@ -546,7 +546,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/rangolify.webp");
+    url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/rangolify.webp");
   background-size: cover;
   background-position: center;
 }
@@ -559,7 +559,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/curaspace.webp");
+    url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/curaspace.webp");
   background-size: cover;
   background-position: center;
 }
@@ -572,7 +572,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/Fos.png");
+    url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/Fos.png");
   background-size: cover;
   background-position: center;
 }
@@ -585,7 +585,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/equationGallery.svg");
+    url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/equationGallery.svg");
   background-size: cover;
   background-position: center;
 }
@@ -598,7 +598,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/pitchDeck.png");
+    url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/ExperiencePage/pitchDeck.png");
   background-size: cover;
   background-position: center;
 }
@@ -611,7 +611,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/ScienceApplication/1.png");
+    url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/ScienceApplication/1.png");
   background-size: cover;
   background-position: center;
 }
@@ -624,7 +624,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/SciEvolution/evolutionSci.png");
+    url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/SciEvolution/evolutionSci.png");
   background-size: cover;
   background-position: center;
 }
@@ -638,7 +638,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/Fun+things+to+do+with+science-min.webp");
+    url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/Fun%20things%20to%20do%20with%20science-min.webp");
   background-size: cover;
   background-position: center;
 }
@@ -651,7 +651,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/IncityGallery/Incity+cover+image.svg);
+    url(https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/IncityGallery/Incity%20cover%20image.svg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -666,7 +666,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url(https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/SciEvolution/science+avatar.webp);
+    url(https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/SciEvolution/science%20avatar.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -683,7 +683,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/frequency_test.png");
+    url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/frequency_test.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -697,7 +697,7 @@ code {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 1)),
-    url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/sound_analyser.png");
+    url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/sound_analyser.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -878,7 +878,7 @@ code {
   }
 
   .expHomePage #logo {
-    background-image: url("https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/logo.png");
+    background-image: url("https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassetsbucket/NewParamScienceWeb/logo.png");
     background-size: contain;
     /* width: 45px; */
     background-repeat: no-repeat;
@@ -890,3 +890,5 @@ code {
     height: 60vh;
   }
 }
+
+

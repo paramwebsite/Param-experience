@@ -3,274 +3,277 @@ const Data = [
     redSrc: "https://openprocessing.org/sketch/1831934",
     altText: "Fractal Fantasia",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/1.+Fractal.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/1.%20Fractal.webp",
   },
   {
     redSrc: "https://openprocessing.org/sketch/1990191",
     altText: "Fluid Dynamics",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/2.+Fluid+Dynamics.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/2.%20Fluid%20Dynamics.webp",
   },
   {
     redSrc: "https://www.nature.com/immersive/d41586-019-03165-4/index.html",
     altText: "Word Net",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/3.+Word+Dynamics.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/3.%20Word%20Dynamics.png",
   },
   {
     redSrc: "https://pudding.cool/2021/03/wine-model/",
     altText: "Wine and Math",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/4.+Mathematical+wine.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/4.%20Mathematical%20wine.png",
   },
   {
     redSrc: "https://threatmap.checkpoint.com/",
     altText: "Live Cyber Attacks",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/5.+Real+time+Cyber+Attacks.avif",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/5.%20Real%20time%20Cyber%20Attacks.avif",
   },
   {
     redSrc: "https://thispersondoesnotexist.com/",
     altText: "Fake Humans",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/6.+Person+does+not+exists.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/6.%20Person%20does%20not%20exists.webp",
   },
   {
     redSrc: "https://openprocessing.org/sketch/1969734",
     altText: "Curvy Wonders",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/7.Curvy+wonders+.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/7.Curvy%20wonders%20.webp",
   },
   {
     redSrc: "https://openprocessing.org/sketch/763432",
     altText: "Micro Marvels",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/8.+Micro+Marvels.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/8.%20Micro%20Marvels.png",
   },
   {
     redSrc: "https://www.escapemotions.com/experiments/fluid_fire_3/index.php",
     altText: "Fire Simulator",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/9.+Fire+Simulation.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/9.%20Fire%20Simulation.webp",
   },
   {
     redSrc: "https://playback.fm/paper-snowflake-maker",
     altText: "Snowflake Generator",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/10.+Snowflake+Symmetry.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/10.%20Snowflake%20Symmetry.png",
   },
   {
     redSrc:
       "https://www.labxchange.org/library/items/lb:LabXchange:a664fc10:lx_simulation:1?fullscreen=true",
     altText: "Protein Folding",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/11.+Protein+Synthesis.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/11.%20Protein%20Synthesis.png",
   },
   {
     redSrc: "https://phydemo.app/ray-optics/simulator/",
     altText: "Optics Simulator",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/12.+Laser+Art.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/12.%20Laser%20Art.webp",
   },
   {
     redSrc: "https://www.dartmouth.edu/emlab/gallery/",
     altText: "Electron Microscope art",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/13.+Electron+Microscopy.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/13.%20Electron%20Microscopy.webp",
   },
   {
     redSrc: "https://xenobiologymuseum.com/celestial-glow/",
     altText: "Alien Museum",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/14.+Alien+Museum.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/14.%20Alien%20Museum.png",
   },
   {
     redSrc: "https://svs.gsfc.nasa.gov/10661",
     altText: "Galaxy Formation",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/15.+Galaxy+Visualizations.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/15.%20Galaxy%20Visualizations.png",
   },
   {
     redSrc:
       "https://www.inspiritvr.com/biology/simulations/dna-replication-simulation",
     altText: "DNA Replication",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/16.+DNA+Replication.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/16.%20DNA%20Replication.webp",
   },
   {
     redSrc: "https://www.8thwall.com/imaginarforlearning/demo1",
     altText: "Solar in AR",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/17.+Solar+in+AR.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/17.%20Solar%20in%20AR.png",
   },
   {
     redSrc: "https://gravitysimulator.org/solar-system",
     altText: "Gravity Simulator",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/18.+Gravity+Simulator.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/18.%20Gravity%20Simulator.webp",
   },
   {
     redSrc: "https://immersive.biologicalpreparations.com/enhancements",
     altText: "Biological Prep",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/19.+Biological+Preparation.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/19.%20Biological%20Preparation.webp",
   },
   {
     redSrc: "https://informationisbeautiful.net/",
     altText: "Information is Beautiful",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/20.+Information+is+Beautiful.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/20.%20Information%20is%20Beautiful.webp",
   },
   {
     redSrc: "https://eyes.nasa.gov/apps/asteroids/#/home",
     altText: "Eye on Asteroids",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/21.+Eyes+on+Asteroids.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/21.%20Eyes%20on%20Asteroids.png",
   },
   {
     redSrc: "https://www.sciencevr.com/",
     altText: "Science VR",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/22.+Science+in+VR.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/22.%20Science%20in%20VR.webp",
   },
   {
     redSrc:"https://prajwalsouza.github.io/Experiments/Fourier-Transform-Visualization.html",
     altText: "Fourier Transformers",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/23.+Fourier+Transformation.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/23.%20Fourier%20Transformation.png",
   },
   {
     redSrc:"https://telescope.live/blog/starforge-spectacular-simulation-stars-being-born",
     altText: "Starforge",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/24.+Starforge.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/24.%20Starforge.png",
   },
   {
     redSrc: "https://astrogallery.com/collections/hall-of-fame",
     altText: "Ancient Gallery",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/25.+Ancient+Gallery.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/25.%20Ancient%20Gallery.webp",
   },
   {
     redSrc: "https://www.desmos.com/calculator/qkgb3iuchh",
     altText: "Rotating Frames",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/26.+Rotating+Frames.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/26.%20Rotating%20Frames.png",
   },
   {
     redSrc: "https://seismo.berkeley.edu/seismo.real.time.map.html",
     altText: "Real-time Earthquakes",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/27.+Real-time+Earthquakes.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/27.%20Real-time%20Earthquakes.webp",
   },
   {
     redSrc: "https://platform.leolabs.space/visualization",
     altText: "Low Earth Satellite Tracker",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/28.+Low+Earth+Satellite+Tracker.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/28.%20Low%20Earth%20Satellite%20Tracker.webp",
   },
   {
     redSrc: "https://esahubble.org/images/archive/top100/",
     altText: "Clicks from Hubble",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/29.+Clicks+from+Hubble.avif",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/29.%20Clicks%20from%20Hubble.avif",
   },
   {
     redSrc:"https://ideas.ted.com/gallery-the-most-beautiful-bacteria-youll-ever-see/",
     altText: "Beautiful bacterias",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/30.+Beautiful+Bacteria.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/30.%20Beautiful%20Bacteria.webp",
   },
   {
     redSrc: "https://eyes.nasa.gov/apps/earth/#/vitalsign?vitalsign=soil_moisture&altid=0&animating=f&start=&end=",
     altText: "Global Soil Moisture Tracker",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/31.+Global+Soil+Moisture+Tracker.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/31.%20Global%20Soil%20Moisture%20Tracker.webp",
   },
   {
     redSrc: "https://www.beautifulchemistry.net/reaction",
     altText: "Beautiful Chemistry",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/32.+Beautiful+Chemistry.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/32.%20Beautiful%20Chemistry.webp",
   },
   {
     redSrc: "https://oeis.org/",
     altText: "Encyclopedia of Sequences",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/33.+Encyclopedia+of+Sequences+.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/33.%20Encyclopedia%20of%20Sequences%20.webp",
   },
   {
     redSrc: "https://chemequations.com/en/",
     altText: "Chemical Reactions Generator",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/34.+Chemical+Reactions+Generator.webp",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/34.%20Chemical%20Reactions%20Generator.webp",
   },
   {
     redSrc: "https://www.jezzamon.com/fourier/",
     altText: "Learn Fourier Transformations",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/35.+Learn+Fourier+Transformations.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/35.%20Learn%20Fourier%20Transformations.png",
   },
   {
     redSrc: "https://en.wikipedia.org/wiki/Lichtenberg_figure",
     altText: "Litchenberg Figures",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/36.+Litchenberg+Figures.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/36.%20Litchenberg%20Figures.png",
   },
   {
     redSrc: "https://pudding.cool/2018/04/birthday-paradox/",
     altText: "The Birthday Paradox Experiment",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/37.+The+Birthday+Paradox+Experiment.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/37.%20The%20Birthday%20Paradox%20Experiment.png",
   },
   {
     redSrc: "https://pudding.cool/2022/12/emotion-wheel/",
     altText: "Emotion Wheel",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/38.+Emotion+Wheel.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/38.%20Emotion%20Wheel.png",
   },
   {
     redSrc: "https://www.wolframcloud.com/obj/microsites/code-cards/",
     altText: "Code Cards",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/39.+Wolfarm.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/39.%20Wolfarm.png",
   },
   {
     redSrc: "https://neal.fun/",
     altText: "Neal Fun",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/40.+Neal+fun.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/40.%20Neal%20fun.png",
   },
   {
     redSrc: "https://www.instagram.com/cosmodernism/",
     altText: "Cosmodernism",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/41.+cosmodernism.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/41.%20cosmodernism.png",
   },
   {
     redSrc: "https://scaleofuniverse.com/en",
     altText: "Scale of the Universe",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/42.+Scale+of+universe.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/42.%20Scale%20of%20universe.png",
   },
   {
     redSrc: "https://blog.matthen.com/",
     altText: "Matthen",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/43.+Mathen.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/43.%20Mathen.png",
   },
   {
     redSrc: "https://ai.google/discover/scienceai/",
     altText: "Google Science",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/44.+Google+Science.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/44.%20Google%20Science.png",
   },
   {
     redSrc: "https://puzzel.org/",
     altText: "Puzzle",
     imgSrc:
-      "https://digital-applications-assets.sgp1.digitaloceanspaces.com/digitalassetsbucket/FunScience/45.+Puzzle.png",
+      "https://digital-applications-assets.sgp1.cdn.digitaloceanspaces.com/digitalassestbucket/FunScience/45.%20Puzzle.png",
   },
 ];
 
 export default Data;
+
+
+
