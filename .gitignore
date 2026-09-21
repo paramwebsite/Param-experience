@@ -40,3 +40,5 @@ src/pages/EquationGallery/Facts/public/
 src/pages/EquationGallery/Desmos/public/
 src/components/equationalGallery/public/
 
+
+*.tar.gz
