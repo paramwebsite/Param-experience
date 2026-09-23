@@ -1,0 +1,13 @@
+
+.ScienceAplicationblock{
+    width: 100%;
+    /* height: 80%; */
+    margin-top: 9%;
+ 
+   
+}
+
+.ScienceAplicationblock canvas{
+    width: 100% !important;
+    height: 500px !important;
+}

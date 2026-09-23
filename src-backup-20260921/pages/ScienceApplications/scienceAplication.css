@@ -1,0 +1,84 @@
+.ScienceAplication{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
+ }
+ /* .ScienceAplicationnav{
+    width: 100%;
+    height: auto;
+  
+
+ }
+.Scinav {
+    display: flex !important;
+    height: 18px;
+   
+    background: transparent;
+    gap: 20px;
+    align-items: center;
+    padding: 2%;
+    padding-left: 4% !important;
+    width: 100%;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 40px;
+    color: white;
+    z-index: 5;
+  } */
+
+ .ball-anime .ScienceAplicationblock canvas{
+    padding-top: 14vh;
+ }
+ 
+ 
+ .ScienceAplication .ScienceAplicationblock{
+     width: 100%;
+     height: 100%;
+   background-color:white;
+    
+ }
+ .ScienceAplication .ScienceAplicationblockA{
+    width: 100%;
+    /* margin-top: 7%; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* height: 90%; */
+}
+.ScienceAplication .ScienceAplicationblockB{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+ }
+ .ScienceAplication .ScienceAplicationblock canvas{
+     width: 100% !important;
+     height: 100% !important;
+     background-color: black;
+ }
+ .ScienceAplication .ScienceAplicationblockA canvas{
+    width: 500px !important;
+    height: 500px !important;
+ 
+}
+.ScienceAplication .ScienceAplicationBlack{
+    background-color: white;;
+}
+.ScienceAplication .colorArrow{
+    color:white
+}
+
+.node-spring .ScienceAplicationblock canvas{
+    padding-top: 10vh;
+}
+
+.glass-breaker .ScienceAplicationblock canvas{
+    padding-top: 6vh;
+}
