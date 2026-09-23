@@ -1,0 +1,48 @@
+name: Deploy Param Experience
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Prepare SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H "${{ secrets.DEPLOY_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Deploy
+        run: |
+          tar -czf build.tar.gz -C build .
+
+          scp -i ~/.ssh/deploy_key \
+            build.tar.gz \
+            "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/tmp/param-experience-build.tar.gz"
+
+          ssh -i ~/.ssh/deploy_key \
+            "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
+            "sudo rm -rf /var/www/param-experience/current/* && \
+             sudo tar -xzf /tmp/param-experience-build.tar.gz -C /var/www/param-experience/current && \
+             sudo chown -R deploy:deploy /var/www/param-experience/current && \
+             rm -f /tmp/param-experience-build.tar.gz"
