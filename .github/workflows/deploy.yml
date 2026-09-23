@@ -10,42 +10,84 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # --------------------------------------------------
+      # 1. Checkout repository
+      # --------------------------------------------------
       - name: Checkout
         uses: actions/checkout@v4
 
+      # --------------------------------------------------
+      # 2. Setup Node.js
+      # --------------------------------------------------
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
 
+      # --------------------------------------------------
+      # 3. Install dependencies
+      # --------------------------------------------------
       - name: Install dependencies
         run: npm ci
 
+      # --------------------------------------------------
+      # 4. Build React application
+      # CRA treats CI warnings as errors by default.
+      # CI=false allows the existing ESLint warnings.
+      # --------------------------------------------------
       - name: Build
         env:
           CI: false
         run: npm run build
-        
 
+      # --------------------------------------------------
+      # 5. Configure SSH
+      # --------------------------------------------------
       - name: Prepare SSH
         run: |
           mkdir -p ~/.ssh
+
           echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/deploy_key
+
           chmod 600 ~/.ssh/deploy_key
+
           ssh-keyscan -H "${{ secrets.DEPLOY_HOST }}" >> ~/.ssh/known_hosts
 
-      - name: Deploy
+      # --------------------------------------------------
+      # 6. Create deployment archive
+      # --------------------------------------------------
+      - name: Create deployment archive
         run: |
           tar -czf build.tar.gz -C build .
 
+      # --------------------------------------------------
+      # 7. Upload build to WEB Droplet
+      # --------------------------------------------------
+      - name: Upload build
+        run: |
           scp -i ~/.ssh/deploy_key \
             build.tar.gz \
             "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/tmp/param-experience-build.tar.gz"
 
+      # --------------------------------------------------
+      # 8. Deploy build
+      # --------------------------------------------------
+      - name: Deploy
+        run: |
           ssh -i ~/.ssh/deploy_key \
             "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
-            "sudo rm -rf /var/www/param-experience/current/* && \
-             sudo tar -xzf /tmp/param-experience-build.tar.gz -C /var/www/param-experience/current && \
-             sudo chown -R deploy:deploy /var/www/param-experience/current && \
+            "rm -rf /var/www/param-experience/current/* && \
+             tar -xzf /tmp/param-experience-build.tar.gz -C /var/www/param-experience/current && \
+             chown -R deploy:deploy /var/www/param-experience/current && \
              rm -f /tmp/param-experience-build.tar.gz"
+
+      # --------------------------------------------------
+      # 9. Verify deployment
+      # --------------------------------------------------
+      - name: Verify deployment
+        run: |
+          ssh -i ~/.ssh/deploy_key \
+            "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
+            "test -f /var/www/param-experience/current/index.html && \
+             echo 'Param Experience deployment successful'"
